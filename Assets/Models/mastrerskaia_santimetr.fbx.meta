@@ -1,0 +1,636 @@
+fileFormatVersion: 2
+guid: 4c6f2c452a0a92f4fa3a4b068a439b1b
+ModelImporter:
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Allhoy_Wheel002
+    second: {fileID: 2100000, guid: 03b5d6e24cc5043448b48163d7d347a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bolti
+    second: {fileID: 2100000, guid: 292e53f853bb9d140976e7e57064d902, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bolti_tiski
+    second: {fileID: 2100000, guid: a7bb91144d2097b47852abb158d80c96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dly_kolos
+    second: {fileID: 2100000, guid: e07fa1a5ba00b0140835ec1d9a57c394, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_rychka
+    second: {fileID: 2100000, guid: 10329d1e0f55fe246802ea423b9865c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dver
+    second: {fileID: 2100000, guid: 915694ffdbed8ec48a2c5553d7147d87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dveri_krepeji
+    second: {fileID: 2100000, guid: 7726ab42b8a25864b94b633f21ca05fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: front
+    second: {fileID: 2100000, guid: cc93317e0102b7a4c9ef5786578e4638, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grysha_grysha
+    second: {fileID: 2100000, guid: 046fd8a1ab66e0145ba2776725ccc1b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grysha_palka
+    second: {fileID: 2100000, guid: 1a7e99c01b39d5d43950a30a7d857361, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: iron_balki
+    second: {fileID: 2100000, guid: 8355e6a0256aeae4093adeb6ff2db5bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: iton_tiski
+    second: {fileID: 2100000, guid: ae2004870785af742a43989400f30604, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: klych_nosadka001_kreplenie
+    second: {fileID: 2100000, guid: 03c615559c1cc1f489c0f619db3f4848, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: klych_nosadka001_metall
+    second: {fileID: 2100000, guid: 0824d560b9a5e4a489398ed09a878294, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: klych_nosadka001_obrych
+    second: {fileID: 2100000, guid: 0b8c06007467d9d41a3dc663557d5c22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: klych_nosadka001_rychka
+    second: {fileID: 2100000, guid: 70119837ad049d548b70fc35e362db8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: klych_nosadka_iron
+    second: {fileID: 2100000, guid: a8887eeb3c8ff014e9b2803dacd8aa13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: klych_nosadka_kolco
+    second: {fileID: 2100000, guid: 7c3e32359692c204d97cb3505d0e80d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: klych_nosadka_krepej
+    second: {fileID: 2100000, guid: 3502640ab188a604f8a536843284c8b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: klych_nosadka_nasadka
+    second: {fileID: 2100000, guid: 34e76d51d0cc52c40af739ffb0ea8f44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: klych_nosadka_rychka
+    second: {fileID: 2100000, guid: 482df15ae18874249830b9a6ab18f2f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kolesa
+    second: {fileID: 2100000, guid: ff093575cf91efc469321656545f6baf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: korpys
+    second: {fileID: 2100000, guid: 73c3185a9e8308e44b42f3a0e0a46833, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: korpys_tiski
+    second: {fileID: 2100000, guid: 8fce0b9fb55dcf84a9c175f66af3713c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kosiak_dver
+    second: {fileID: 2100000, guid: f53fd17ba595d524182ac7507989bcd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: krepeji
+    second: {fileID: 2100000, guid: 3889a5a39617b874dae1e993aa0e4d84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lampa
+    second: {fileID: 2100000, guid: 91d4aa9504452304bb08c86036f927d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lampochka
+    second: {fileID: 2100000, guid: 9612eb107c1e4624ea2d0b1cd0f789dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: left
+    second: {fileID: 2100000, guid: 09b956e6659763f43819be18545ca253, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nasadka1
+    second: {fileID: 2100000, guid: 8d29dcee64c0c0c45b73d9e5c8e98a3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nasadka2
+    second: {fileID: 2100000, guid: f2f8e623d84110743ba179e6661b6b97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nasadka3
+    second: {fileID: 2100000, guid: 0f754dff626d85c488e69f215af69210, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: niz_stola
+    second: {fileID: 2100000, guid: 2e333e5f0382cb94785003a74e9c1247, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: osnova_balki
+    second: {fileID: 2100000, guid: 9dd6ed88c8a6988459edcb3e371718c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: osnova_bolti
+    second: {fileID: 2100000, guid: 90c89ff73729dd145b2f84770ad21af0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: osnova_dvig
+    second: {fileID: 2100000, guid: 1fc5cf50c8128ab4e903f6f3205bd14e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: osnova_dvig1
+    second: {fileID: 2100000, guid: be365a2b573278d48b5f13740608610f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: osnova_dvig1_bolti
+    second: {fileID: 2100000, guid: 2635e5013c5b9894c817817231774da7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: osnova_dvig1_krihka
+    second: {fileID: 2100000, guid: d229396dbd697f847b51e2559831701c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: osnova_dvig1_shnyr
+    second: {fileID: 2100000, guid: e973faea1eb75dc40b55837cfef8780c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: osnova_dvig2_bolti
+    second: {fileID: 2100000, guid: 9afd4778fdda16940bc9eba1dc5012d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: osnova_dvig_krishka
+    second: {fileID: 2100000, guid: 1da0a3d5651b30447b4e2ab0929d577e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: osnova_grey_button
+    second: {fileID: 2100000, guid: 0facf75096054aa4281e9c53f5c68ac4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: osnova_krepeji
+    second: {fileID: 2100000, guid: 9a5c3b83166a2b343a060d2ebe41d138, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: osnova_osnova
+    second: {fileID: 2100000, guid: bd30b6cf8f9bd0f4ca05f63a88e1b06e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: osnova_red_button
+    second: {fileID: 2100000, guid: 9dc8c76599468e34c8f55b5941aa08a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: osnova_stola
+    second: {fileID: 2100000, guid: b5bed6a31eaa78d468dd0e1c4ac7c586, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: otvertka1_kreplenie
+    second: {fileID: 2100000, guid: 6432cc9863444744c94b2aeca511cd45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: otvertka1_otvertka
+    second: {fileID: 2100000, guid: 874ae97b4b25e3140b1e20fd697751e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: otvertka1_rychka
+    second: {fileID: 2100000, guid: 1742f429125b3d54eb33b282c288b96b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: otvertka2_kreplenie
+    second: {fileID: 2100000, guid: bbefa86f8936caa4ab99ec28b08fe5bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: otvertka2_otvertka
+    second: {fileID: 2100000, guid: 310e9bf28f6d0f8498ed7d0aca6a30e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: otvertka2_rychka
+    second: {fileID: 2100000, guid: 59530081de1b28f49a8576b8a8956a9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pod_rog1_bolt
+    second: {fileID: 2100000, guid: f99b1d62f3e282f448426190580d68a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pod_rog1_osnova
+    second: {fileID: 2100000, guid: 7b92364c26473ce4a9d45ef7ade34f58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pod_rog2_bolt
+    second: {fileID: 2100000, guid: 32b3e92ae23ba454692aaf4b02ebac8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pod_rog2_osnova
+    second: {fileID: 2100000, guid: efef3eb90f44ba846863633dd910178d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pod_rog3_bolt
+    second: {fileID: 2100000, guid: 6b699dd0208635a4aa38d1ed2ba3d3e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pod_rog3_osnova
+    second: {fileID: 2100000, guid: 83fc74e26b73c094eb839c4203c0bdfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pod_rog4_bolt
+    second: {fileID: 2100000, guid: fa554523f9612bd42be623d18826a432, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pod_rog4_osnova
+    second: {fileID: 2100000, guid: 8e05d9d65fd570746ba88b1589e2c7c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: podiemniy_mex1_korpys
+    second: {fileID: 2100000, guid: 0bed86769715ae64293e869864d85c24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: podiemniy_mex1_krepej
+    second: {fileID: 2100000, guid: 34eb6ff5c557dd0409359509b5aa190c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: podiemniy_mex2_krepej
+    second: {fileID: 2100000, guid: e33c529cdc9673b4789c751992a5fee1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: podiemniy_mex2_obsh
+    second: {fileID: 2100000, guid: fc50f6d6be4d0014198217c6a73dd965, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pol
+    second: {fileID: 2100000, guid: 815fab50ab8807040bcbfd8c0bbdea38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polka1
+    second: {fileID: 2100000, guid: a1ce1663a76482944940dcf0ae6072be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polka2
+    second: {fileID: 2100000, guid: 264cddc896d685c42b4ac31b9a387150, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polki
+    second: {fileID: 2100000, guid: 18d7ac623e81a6948ae1d4945725e005, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: potolok
+    second: {fileID: 2100000, guid: f31e66b63042067418920ebbd0472aab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: provod
+    second: {fileID: 2100000, guid: 329adccd7b50ecc408c2ee4842c65fad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prytia
+    second: {fileID: 2100000, guid: a005d984419e1a345a36bdca10b88099, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pylt
+    second: {fileID: 2100000, guid: 1dc83881380a4d04889ef5a5f89226a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pylt_niz
+    second: {fileID: 2100000, guid: 432d51e9a5e2ef348b2552c9479553a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pylt_osnova
+    second: {fileID: 2100000, guid: a4ea31d784606494bbc464a7eb8a4187, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pylt_verh
+    second: {fileID: 2100000, guid: 788ae1e1ee0c5614a90559f6b0afbb73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ramki
+    second: {fileID: 2100000, guid: 9fe3ac91325bbd44caa68d8c06584780, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: reshetka
+    second: {fileID: 2100000, guid: 27a9be0340cbf1442b691d6b6717a642, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: right
+    second: {fileID: 2100000, guid: 62781d926fb14a24ba41ca5e80b33051, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rog1_bolt
+    second: {fileID: 2100000, guid: 8c0ebd74823f44942bf56b30356d7a56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rog1_osnova
+    second: {fileID: 2100000, guid: 6a210f53958286e4eb3ea95e3d0ef9c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rog1_shesternia
+    second: {fileID: 2100000, guid: 58a00e40fcf29e143b12d90c6d14db53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rog2_bolt
+    second: {fileID: 2100000, guid: 44f3a52f5647e8c4eae10c08007709c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rog2_osnova
+    second: {fileID: 2100000, guid: 29813da0e4952874e888a926d6ea4b30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rog2_shesternia
+    second: {fileID: 2100000, guid: 7698a8c8bb9d7d14889eaca6595bdb7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rog3_bolt
+    second: {fileID: 2100000, guid: 955a05b214dbe0341917868df55c9575, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rog3_osnova
+    second: {fileID: 2100000, guid: 0ec4940eff56bbd4199e740717dce329, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rog3_shesternia
+    second: {fileID: 2100000, guid: a2fbd794471ca044aa7486e259785a84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rog4_bolt
+    second: {fileID: 2100000, guid: a69a6818b4e11e84298af6b4a603fb02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rog4_korpys
+    second: {fileID: 2100000, guid: 974c2f1e25895b947b074a36ea463afd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rog4_shesternia
+    second: {fileID: 2100000, guid: 1ae05292cb4e12a40a54c8258b017119, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shestigrannik003
+    second: {fileID: 2100000, guid: a5a6defaead0cb64ea662fd1528ef31e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shestigrannik1
+    second: {fileID: 2100000, guid: 6fa7e234f850ee34faac1bf14aa3fd14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shestigrannik2
+    second: {fileID: 2100000, guid: 9351e73339c877c4088ac5d562d3fa3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stena_zad
+    second: {fileID: 2100000, guid: 169941dae90756c4090d8a73abf352be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steni
+    second: {fileID: 2100000, guid: a58a67ce500135744ac870c04955f3cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stoleshnica
+    second: {fileID: 2100000, guid: 8f9a493a3e5fd6345887416db99e8e58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tire2
+    second: {fileID: 2100000, guid: 10786fe3d5dbbcb4796f07f7f30960dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vorota
+    second: {fileID: 2100000, guid: c45172298af4e0d47ab286630981794f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vorota1
+    second: {fileID: 2100000, guid: 61c8d9c81e05ed64591c786ab2a760d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vorota2
+    second: {fileID: 2100000, guid: 2acd70b1be1df2f4a80e3f99d3f7c93c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zadnia_stenka
+    second: {fileID: 2100000, guid: 2ab7f28c4feaccb43a017a3c9bed76ba, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
