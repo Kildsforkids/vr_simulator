@@ -29,16 +29,16 @@ public class InputManager : MonoBehaviour
 
     private void Position(SteamVR_Action_Vector2 fromAction, SteamVR_Input_Sources fromSource, Vector2 axis, Vector2 delta)
     {
-        print(axis);
+        radialMenu.SetTouchPosition(axis);
     }
 
     private void Touch(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource, bool newState)
     {
-        print(newState);
+        radialMenu.Show(newState);
     }
 
     private void PressRelease(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
-        print("Released");
+        radialMenu.ActivateHighlightedSection();
     }
 }

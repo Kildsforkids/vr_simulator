@@ -1,18 +1,23 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ColorChanger : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Material pinkMaterial;
+    public Material greyMaterial;
+
+    public void SetPink()
     {
-        
+        SetMaterial(pinkMaterial);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SetGrey()
     {
-        
+        SetMaterial(greyMaterial);
+    }
+
+    private void SetMaterial(Material newMaterial)
+    {
+        MeshRenderer renderer = GetComponent<MeshRenderer>();
+        renderer.material = newMaterial;
     }
 }
