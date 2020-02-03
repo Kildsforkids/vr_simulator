@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Pointer : MonoBehaviour
 {
@@ -20,34 +21,55 @@ public class Pointer : MonoBehaviour
 
     private void UpdateLine()
     {
-        // Использовать по умолчанию или расстояние
-        float targetLength = defaultLength;
+        // Use default or distance
+        PointerEventData data = inputModule.GetData();
+        float targetLength = data.pointerCurrentRaycast.distance == 0 ? defaultLength : data.pointerCurrentRaycast.distance;
 
         // Raycast
-        RaycastHit hit = CreateRaycast(targetLength);
+        RaycastHit hit = CreateRaycast(targetLength, LayerMask.GetMask("UI"));
 
-        // По умолчанию
-        Vector3 endPosition = transform.position + (transform.forward * targetLength);
+        // Default
+        //Vector3 endPosition = transform.position + (transform.forward * targetLength);
+        Vector3 endPosition = Vector3.zero;
 
-        // Или основанные на hit
+        // Or based on hit
         if (hit.collider != null)
         {
             endPosition = hit.point;
         }
 
-        // Установить position точки
-        dot.transform.position = endPosition;
+        if (endPosition != Vector3.zero)
+        {
+            // Set position of the dot
+            if (!dot.activeSelf)
+            {
+                dot.SetActive(true);
+            }
+            dot.transform.position = endPosition;
 
-        // LineRenderer
-        lineRenderer.SetPosition(0, transform.position);
-        lineRenderer.SetPosition(1, endPosition);
+            if (!lineRenderer.enabled)
+            {
+                lineRenderer.enabled = true;
+            }
+            // Set linerenderer
+            lineRenderer.SetPosition(0, transform.position);
+            lineRenderer.SetPosition(1, endPosition);
+        }
+        else if (lineRenderer.enabled)
+        {
+            if (dot.activeSelf)
+            {
+                dot.SetActive(false);
+            }
+            lineRenderer.enabled = false;
+        }
     }
 
-    private RaycastHit CreateRaycast(float length)
+    private RaycastHit CreateRaycast(float length, int layerMask = 0)
     {
         RaycastHit hit;
         Ray ray = new Ray(transform.position, transform.forward);
-        Physics.Raycast(ray, out hit, defaultLength);
+        Physics.Raycast(ray, out hit, defaultLength, layerMask);
 
         return hit;
     }
