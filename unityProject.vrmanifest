@@ -2,13 +2,13 @@
   "source": "Unity",
   "applications": [
     {
-      "app_key": "application.generated.unity.testvr.exe",
+      "app_key": "application.generated.unity.vrmechanicsimulator.exe",
       "launch_type": "url",
       "url": "steam://launch/",
       "action_manifest_path": "D:\\UnityProjects\\vr_simulator\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
-          "name": "TestVR [Testing]"
+          "name": "VR Mechanic Simulator [Testing]"
         }
       }
     }

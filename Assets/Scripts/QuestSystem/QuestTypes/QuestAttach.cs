@@ -61,7 +61,7 @@ namespace QuestSystem {
         }
 
         public override void Action() {
-            var relatedGameObject = subjectTrigger.RelatedGameObject;
+            var relatedGameObject = subjectTrigger.transform.parent.gameObject;
             var throwable = relatedGameObject.GetComponent<ThrowableExtend>();
             throwable.currentHand.DetachObject(relatedGameObject);
             Destroy(throwable);
