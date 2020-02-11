@@ -1,0 +1,2086 @@
+fileFormatVersion: 2
+guid: 60fdb8f012a08664e8cbc499a98eac82
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      74: 6660424349445246020
+    second: stol.001|controll_rog1|controll_rog1|controll_rog1|Take 001|BaseLayer|co
+  - first:
+      74: -8292264546540933314
+    second: stol.001|controll_rog1|controll_rog1|controll_rog2|Take 001|BaseLayer|co
+  - first:
+      74: 6850938164775921540
+    second: stol.001|controll_rog1|controll_rog1|controll_rog3|Take 001|BaseLayer|co
+  - first:
+      74: 6508619486581613197
+    second: stol.001|controll_rog1|controll_rog1|controll_rog4|Take 001|BaseLayer|co
+  - first:
+      74: -7272214771678129650
+    second: stol.001|controll_rog1|controll_rog1|dvig1|Take 001|BaseLayer|controll_r
+  - first:
+      74: -4352154564804754127
+    second: stol.001|controll_rog1|controll_rog1|dvig2|Take 001|BaseLayer|controll_r
+  - first:
+      74: 725090641625364841
+    second: stol.001|controll_rog1|controll_rog1|grey_button|Take 001|BaseLayer|cont
+  - first:
+      74: 6330153100992563412
+    second: stol.001|controll_rog1|controll_rog1|klych_nosadka|Take 001|BaseLayer|co
+  - first:
+      74: -8549771802085445742
+    second: stol.001|controll_rog1|controll_rog1|osnova|Take 001|BaseLayer|controll_
+  - first:
+      74: 378093207258412352
+    second: stol.001|controll_rog1|controll_rog1|pod_rog1|Take 001|BaseLayer|control
+  - first:
+      74: 2169427913391783366
+    second: stol.001|controll_rog1|controll_rog1|pod_rog2|Take 001|BaseLayer|control
+  - first:
+      74: -7335658157058486482
+    second: stol.001|controll_rog1|controll_rog1|pod_rog3|Take 001|BaseLayer|control
+  - first:
+      74: -8450400225020351850
+    second: stol.001|controll_rog1|controll_rog1|pod_rog4|Take 001|BaseLayer|control
+  - first:
+      74: -3934951306873378295
+    second: stol.001|controll_rog1|controll_rog1|podemniy_mex_controol1|Take 001|Bas
+  - first:
+      74: -8922232292591885366
+    second: stol.001|controll_rog1|controll_rog1|podemniy_mex_controol2|Take 001|Bas
+  - first:
+      74: -8641845407206677525
+    second: stol.001|controll_rog1|controll_rog1|podiemniy_mex1|Take 001|BaseLayer|c
+  - first:
+      74: 4791924504150218839
+    second: stol.001|controll_rog1|controll_rog1|podiemniy_mex2|Take 001|BaseLayer|c
+  - first:
+      74: -4710245078447293066
+    second: stol.001|controll_rog1|controll_rog1|pylt.001|Take 001|BaseLayer|control
+  - first:
+      74: -135086728333376122
+    second: stol.001|controll_rog1|controll_rog1|red_button|Take 001|BaseLayer|contr
+  - first:
+      74: -4062850151231117987
+    second: stol.001|controll_rog1|controll_rog1|rog1|Take 001|BaseLayer|controll_ro
+  - first:
+      74: -5973811949525359869
+    second: stol.001|controll_rog1|controll_rog1|rog2|Take 001|BaseLayer|controll_ro
+  - first:
+      74: -6805502437364929355
+    second: stol.001|controll_rog1|controll_rog1|rog3|Take 001|BaseLayer|controll_ro
+  - first:
+      74: -7348905643365012276
+    second: stol.001|controll_rog1|controll_rog1|rog4|Take 001|BaseLayer|controll_ro
+  - first:
+      74: 7692878777968225058
+    second: stol.001|controll_rog1|controll_rog1|stol.001|Take 001|BaseLayer|control
+  - first:
+      74: -3816008283893542866
+    second: stol.001|controll_rog1|controll_rog1|telega_low|Take 001|BaseLayer|contr
+  - first:
+      74: 6173365846543059218
+    second: stol.001|controll_rog1|controll_rog1|up|Take 001|BaseLayer|controll_rog1
+  - first:
+      74: 9139635977226152727
+    second: stol.001|controll_rog2|controll_rog2|controll_rog1|Take 001|BaseLayer|co
+  - first:
+      74: -8854763901647337146
+    second: stol.001|controll_rog2|controll_rog2|controll_rog2|Take 001|BaseLayer|co
+  - first:
+      74: 3607182297401079765
+    second: stol.001|controll_rog2|controll_rog2|controll_rog3|Take 001|BaseLayer|co
+  - first:
+      74: 3582141013342636976
+    second: stol.001|controll_rog2|controll_rog2|controll_rog4|Take 001|BaseLayer|co
+  - first:
+      74: 7675869057796942222
+    second: stol.001|controll_rog2|controll_rog2|dvig1|Take 001|BaseLayer|controll_r
+  - first:
+      74: 6060881951599026807
+    second: stol.001|controll_rog2|controll_rog2|dvig2|Take 001|BaseLayer|controll_r
+  - first:
+      74: 336945145047089480
+    second: stol.001|controll_rog2|controll_rog2|grey_button|Take 001|BaseLayer|cont
+  - first:
+      74: -8521870645298843793
+    second: stol.001|controll_rog2|controll_rog2|klych_nosadka|Take 001|BaseLayer|co
+  - first:
+      74: -4999960162134524291
+    second: stol.001|controll_rog2|controll_rog2|osnova|Take 001|BaseLayer|controll_
+  - first:
+      74: 5018263513530778512
+    second: stol.001|controll_rog2|controll_rog2|pod_rog1|Take 001|BaseLayer|control
+  - first:
+      74: -6313320359012841193
+    second: stol.001|controll_rog2|controll_rog2|pod_rog2|Take 001|BaseLayer|control
+  - first:
+      74: 5699152204897433148
+    second: stol.001|controll_rog2|controll_rog2|pod_rog3|Take 001|BaseLayer|control
+  - first:
+      74: -7310678315399355644
+    second: stol.001|controll_rog2|controll_rog2|pod_rog4|Take 001|BaseLayer|control
+  - first:
+      74: -4454311519979868154
+    second: stol.001|controll_rog2|controll_rog2|podemniy_mex_controol1|Take 001|Bas
+  - first:
+      74: -8680670013129811520
+    second: stol.001|controll_rog2|controll_rog2|podemniy_mex_controol2|Take 001|Bas
+  - first:
+      74: -2240952674619774962
+    second: stol.001|controll_rog2|controll_rog2|podiemniy_mex1|Take 001|BaseLayer|c
+  - first:
+      74: -5144421535307973121
+    second: stol.001|controll_rog2|controll_rog2|podiemniy_mex2|Take 001|BaseLayer|c
+  - first:
+      74: 8603755517005705823
+    second: stol.001|controll_rog2|controll_rog2|pylt.001|Take 001|BaseLayer|control
+  - first:
+      74: 6022781941086674135
+    second: stol.001|controll_rog2|controll_rog2|red_button|Take 001|BaseLayer|contr
+  - first:
+      74: 3201972404036315887
+    second: stol.001|controll_rog2|controll_rog2|rog1|Take 001|BaseLayer|controll_ro
+  - first:
+      74: -975864115705399021
+    second: stol.001|controll_rog2|controll_rog2|rog2|Take 001|BaseLayer|controll_ro
+  - first:
+      74: 8907681918981087532
+    second: stol.001|controll_rog2|controll_rog2|rog3|Take 001|BaseLayer|controll_ro
+  - first:
+      74: -1824498886156044385
+    second: stol.001|controll_rog2|controll_rog2|rog4|Take 001|BaseLayer|controll_ro
+  - first:
+      74: -2955736187992750882
+    second: stol.001|controll_rog2|controll_rog2|stol.001|Take 001|BaseLayer|control
+  - first:
+      74: 4389780859267905552
+    second: stol.001|controll_rog2|controll_rog2|telega_low|Take 001|BaseLayer|contr
+  - first:
+      74: 4272038051982792929
+    second: stol.001|controll_rog2|controll_rog2|up|Take 001|BaseLayer|controll_rog2
+  - first:
+      74: 464516056315447412
+    second: stol.001|controll_rog3|controll_rog3|controll_rog1|Take 001|BaseLayer|co
+  - first:
+      74: -520162773578664192
+    second: stol.001|controll_rog3|controll_rog3|controll_rog2|Take 001|BaseLayer|co
+  - first:
+      74: -1110134544618607566
+    second: stol.001|controll_rog3|controll_rog3|controll_rog3|Take 001|BaseLayer|co
+  - first:
+      74: 5275704706146939840
+    second: stol.001|controll_rog3|controll_rog3|controll_rog4|Take 001|BaseLayer|co
+  - first:
+      74: -4883287730266375200
+    second: stol.001|controll_rog3|controll_rog3|dvig1|Take 001|BaseLayer|controll_r
+  - first:
+      74: -8997979680335962702
+    second: stol.001|controll_rog3|controll_rog3|dvig2|Take 001|BaseLayer|controll_r
+  - first:
+      74: -1001955311652024536
+    second: stol.001|controll_rog3|controll_rog3|grey_button|Take 001|BaseLayer|cont
+  - first:
+      74: 3867712004813818140
+    second: stol.001|controll_rog3|controll_rog3|klych_nosadka|Take 001|BaseLayer|co
+  - first:
+      74: 6877298309140083375
+    second: stol.001|controll_rog3|controll_rog3|osnova|Take 001|BaseLayer|controll_
+  - first:
+      74: 8554277647265044410
+    second: stol.001|controll_rog3|controll_rog3|pod_rog1|Take 001|BaseLayer|control
+  - first:
+      74: -6717039227905729101
+    second: stol.001|controll_rog3|controll_rog3|pod_rog2|Take 001|BaseLayer|control
+  - first:
+      74: -1207778339415264956
+    second: stol.001|controll_rog3|controll_rog3|pod_rog3|Take 001|BaseLayer|control
+  - first:
+      74: 4361802367366029339
+    second: stol.001|controll_rog3|controll_rog3|pod_rog4|Take 001|BaseLayer|control
+  - first:
+      74: -3676016281888557036
+    second: stol.001|controll_rog3|controll_rog3|podemniy_mex_controol1|Take 001|Bas
+  - first:
+      74: -181706380204919157
+    second: stol.001|controll_rog3|controll_rog3|podemniy_mex_controol2|Take 001|Bas
+  - first:
+      74: 763525554519508779
+    second: stol.001|controll_rog3|controll_rog3|podiemniy_mex1|Take 001|BaseLayer|c
+  - first:
+      74: -1526032428823549927
+    second: stol.001|controll_rog3|controll_rog3|podiemniy_mex2|Take 001|BaseLayer|c
+  - first:
+      74: -5026834708400483276
+    second: stol.001|controll_rog3|controll_rog3|pylt.001|Take 001|BaseLayer|control
+  - first:
+      74: 8009679921371447859
+    second: stol.001|controll_rog3|controll_rog3|red_button|Take 001|BaseLayer|contr
+  - first:
+      74: -8553467236496972433
+    second: stol.001|controll_rog3|controll_rog3|rog1|Take 001|BaseLayer|controll_ro
+  - first:
+      74: -5061652992128324955
+    second: stol.001|controll_rog3|controll_rog3|rog2|Take 001|BaseLayer|controll_ro
+  - first:
+      74: 7911225485457121495
+    second: stol.001|controll_rog3|controll_rog3|rog3|Take 001|BaseLayer|controll_ro
+  - first:
+      74: -7091174420264990303
+    second: stol.001|controll_rog3|controll_rog3|rog4|Take 001|BaseLayer|controll_ro
+  - first:
+      74: 1949405728721174173
+    second: stol.001|controll_rog3|controll_rog3|stol.001|Take 001|BaseLayer|control
+  - first:
+      74: -6963265631409769539
+    second: stol.001|controll_rog3|controll_rog3|telega_low|Take 001|BaseLayer|contr
+  - first:
+      74: -1815519355755232997
+    second: stol.001|controll_rog3|controll_rog3|up|Take 001|BaseLayer|controll_rog3
+  - first:
+      74: -1360025661613440770
+    second: stol.001|controll_rog4|controll_rog4|controll_rog1|Take 001|BaseLayer|co
+  - first:
+      74: -5857046175630957499
+    second: stol.001|controll_rog4|controll_rog4|controll_rog2|Take 001|BaseLayer|co
+  - first:
+      74: -7263054900152147055
+    second: stol.001|controll_rog4|controll_rog4|controll_rog3|Take 001|BaseLayer|co
+  - first:
+      74: 2867722486885567474
+    second: stol.001|controll_rog4|controll_rog4|controll_rog4|Take 001|BaseLayer|co
+  - first:
+      74: 2435810161294222423
+    second: stol.001|controll_rog4|controll_rog4|dvig1|Take 001|BaseLayer|controll_r
+  - first:
+      74: -6253034373790485250
+    second: stol.001|controll_rog4|controll_rog4|dvig2|Take 001|BaseLayer|controll_r
+  - first:
+      74: -3285765064724437961
+    second: stol.001|controll_rog4|controll_rog4|grey_button|Take 001|BaseLayer|cont
+  - first:
+      74: -6345113396748156634
+    second: stol.001|controll_rog4|controll_rog4|klych_nosadka|Take 001|BaseLayer|co
+  - first:
+      74: -4255172952048010783
+    second: stol.001|controll_rog4|controll_rog4|osnova|Take 001|BaseLayer|controll_
+  - first:
+      74: 7584793297331379313
+    second: stol.001|controll_rog4|controll_rog4|pod_rog1|Take 001|BaseLayer|control
+  - first:
+      74: 8493895566817643965
+    second: stol.001|controll_rog4|controll_rog4|pod_rog2|Take 001|BaseLayer|control
+  - first:
+      74: -973244045908700016
+    second: stol.001|controll_rog4|controll_rog4|pod_rog3|Take 001|BaseLayer|control
+  - first:
+      74: -5653449071770434044
+    second: stol.001|controll_rog4|controll_rog4|pod_rog4|Take 001|BaseLayer|control
+  - first:
+      74: -67783494669569388
+    second: stol.001|controll_rog4|controll_rog4|podemniy_mex_controol1|Take 001|Bas
+  - first:
+      74: 8198588072700163424
+    second: stol.001|controll_rog4|controll_rog4|podemniy_mex_controol2|Take 001|Bas
+  - first:
+      74: 5445476233395788003
+    second: stol.001|controll_rog4|controll_rog4|podiemniy_mex1|Take 001|BaseLayer|c
+  - first:
+      74: 4057067304357466242
+    second: stol.001|controll_rog4|controll_rog4|podiemniy_mex2|Take 001|BaseLayer|c
+  - first:
+      74: 6868461114908411946
+    second: stol.001|controll_rog4|controll_rog4|pylt.001|Take 001|BaseLayer|control
+  - first:
+      74: 748472543411388795
+    second: stol.001|controll_rog4|controll_rog4|red_button|Take 001|BaseLayer|contr
+  - first:
+      74: -5593900142197395951
+    second: stol.001|controll_rog4|controll_rog4|rog1|Take 001|BaseLayer|controll_ro
+  - first:
+      74: 6537982230730829395
+    second: stol.001|controll_rog4|controll_rog4|rog2|Take 001|BaseLayer|controll_ro
+  - first:
+      74: 3393250191199132547
+    second: stol.001|controll_rog4|controll_rog4|rog3|Take 001|BaseLayer|controll_ro
+  - first:
+      74: -4893169524159336305
+    second: stol.001|controll_rog4|controll_rog4|rog4|Take 001|BaseLayer|controll_ro
+  - first:
+      74: 6295367255421061859
+    second: stol.001|controll_rog4|controll_rog4|stol.001|Take 001|BaseLayer|control
+  - first:
+      74: -8719638929741616416
+    second: stol.001|controll_rog4|controll_rog4|telega_low|Take 001|BaseLayer|contr
+  - first:
+      74: 5373566049396233681
+    second: stol.001|controll_rog4|controll_rog4|up|Take 001|BaseLayer|controll_rog4
+  - first:
+      74: -8398821393725012520
+    second: stol.001|dvig1|dvig1|controll_rog1|Take 001|BaseLayer|dvig1|controll_rog
+  - first:
+      74: 7361714614045447344
+    second: stol.001|dvig1|dvig1|controll_rog2|Take 001|BaseLayer|dvig1|controll_rog
+  - first:
+      74: -5656808122320362608
+    second: stol.001|dvig1|dvig1|controll_rog3|Take 001|BaseLayer|dvig1|controll_rog
+  - first:
+      74: -6471528239725036189
+    second: stol.001|dvig1|dvig1|controll_rog4|Take 001|BaseLayer|dvig1|controll_rog
+  - first:
+      74: 1425384672629557781
+    second: stol.001|dvig1|dvig1|dvig1|Take 001|BaseLayer|dvig1|dvig1|Take 001|BaseL
+  - first:
+      74: -718265077497831188
+    second: stol.001|dvig1|dvig1|dvig2|Take 001|BaseLayer|dvig1|dvig2|Take 001|BaseL
+  - first:
+      74: 2133098565339462458
+    second: stol.001|dvig1|dvig1|grey_button|Take 001|BaseLayer|dvig1|grey_button|Ta
+  - first:
+      74: 3073045023123880608
+    second: stol.001|dvig1|dvig1|klych_nosadka|Take 001|BaseLayer|dvig1|klych_nosadk
+  - first:
+      74: 4375424685526760647
+    second: stol.001|dvig1|dvig1|osnova|Take 001|BaseLayer|dvig1|osnova|Take 001|Bas
+  - first:
+      74: 6948466757383660637
+    second: stol.001|dvig1|dvig1|pod_rog1|Take 001|BaseLayer|dvig1|pod_rog1|Take 001
+  - first:
+      74: 7436985831812414210
+    second: stol.001|dvig1|dvig1|pod_rog2|Take 001|BaseLayer|dvig1|pod_rog2|Take 001
+  - first:
+      74: -4910344550775834214
+    second: stol.001|dvig1|dvig1|pod_rog3|Take 001|BaseLayer|dvig1|pod_rog3|Take 001
+  - first:
+      74: 3230273049671554453
+    second: stol.001|dvig1|dvig1|pod_rog4|Take 001|BaseLayer|dvig1|pod_rog4|Take 001
+  - first:
+      74: 175299341072488189
+    second: stol.001|dvig1|dvig1|podemniy_mex_controol1|Take 001|BaseLayer|dvig1|pod
+  - first:
+      74: -2239850421457830064
+    second: stol.001|dvig1|dvig1|podemniy_mex_controol2|Take 001|BaseLayer|dvig1|pod
+  - first:
+      74: -5779448147589083808
+    second: stol.001|dvig1|dvig1|podiemniy_mex1|Take 001|BaseLayer|dvig1|podiemniy_m
+  - first:
+      74: -5905937072783808333
+    second: stol.001|dvig1|dvig1|podiemniy_mex2|Take 001|BaseLayer|dvig1|podiemniy_m
+  - first:
+      74: -1251080971824869987
+    second: stol.001|dvig1|dvig1|pylt.001|Take 001|BaseLayer|dvig1|pylt.001|Take 001
+  - first:
+      74: -5485373540811373260
+    second: stol.001|dvig1|dvig1|red_button|Take 001|BaseLayer|dvig1|red_button|Take
+  - first:
+      74: -5305002375684933202
+    second: stol.001|dvig1|dvig1|rog1|Take 001|BaseLayer|dvig1|rog1|Take 001|BaseLay
+  - first:
+      74: -1601946537653606395
+    second: stol.001|dvig1|dvig1|rog2|Take 001|BaseLayer|dvig1|rog2|Take 001|BaseLay
+  - first:
+      74: 4556905304598120304
+    second: stol.001|dvig1|dvig1|rog3|Take 001|BaseLayer|dvig1|rog3|Take 001|BaseLay
+  - first:
+      74: 2918612180531814926
+    second: stol.001|dvig1|dvig1|rog4|Take 001|BaseLayer|dvig1|rog4|Take 001|BaseLay
+  - first:
+      74: 6684475588554670191
+    second: stol.001|dvig1|dvig1|stol.001|Take 001|BaseLayer|dvig1|stol.001|Take 001
+  - first:
+      74: 4889462001860325540
+    second: stol.001|dvig1|dvig1|telega_low|Take 001|BaseLayer|dvig1|telega_low|Take
+  - first:
+      74: -8078260683960439904
+    second: stol.001|dvig1|dvig1|up|Take 001|BaseLayer|dvig1|up|Take 001|BaseLayer
+  - first:
+      74: 6298170688641048739
+    second: stol.001|dvig2|dvig2|controll_rog1|Take 001|BaseLayer|dvig2|controll_rog
+  - first:
+      74: 6605083155684352548
+    second: stol.001|dvig2|dvig2|controll_rog2|Take 001|BaseLayer|dvig2|controll_rog
+  - first:
+      74: 7438078031827261815
+    second: stol.001|dvig2|dvig2|controll_rog3|Take 001|BaseLayer|dvig2|controll_rog
+  - first:
+      74: -5364580917043034433
+    second: stol.001|dvig2|dvig2|controll_rog4|Take 001|BaseLayer|dvig2|controll_rog
+  - first:
+      74: 2828938709200655899
+    second: stol.001|dvig2|dvig2|dvig1|Take 001|BaseLayer|dvig2|dvig1|Take 001|BaseL
+  - first:
+      74: -8038466610133738034
+    second: stol.001|dvig2|dvig2|dvig2|Take 001|BaseLayer|dvig2|dvig2|Take 001|BaseL
+  - first:
+      74: 3373786356788978887
+    second: stol.001|dvig2|dvig2|grey_button|Take 001|BaseLayer|dvig2|grey_button|Ta
+  - first:
+      74: 8479714572197560065
+    second: stol.001|dvig2|dvig2|klych_nosadka|Take 001|BaseLayer|dvig2|klych_nosadk
+  - first:
+      74: 2593128802275726440
+    second: stol.001|dvig2|dvig2|osnova|Take 001|BaseLayer|dvig2|osnova|Take 001|Bas
+  - first:
+      74: -1641640587998059773
+    second: stol.001|dvig2|dvig2|pod_rog1|Take 001|BaseLayer|dvig2|pod_rog1|Take 001
+  - first:
+      74: -9216377503150422821
+    second: stol.001|dvig2|dvig2|pod_rog2|Take 001|BaseLayer|dvig2|pod_rog2|Take 001
+  - first:
+      74: 8139704626027934380
+    second: stol.001|dvig2|dvig2|pod_rog3|Take 001|BaseLayer|dvig2|pod_rog3|Take 001
+  - first:
+      74: -2189772232979649818
+    second: stol.001|dvig2|dvig2|pod_rog4|Take 001|BaseLayer|dvig2|pod_rog4|Take 001
+  - first:
+      74: 2280596880898779559
+    second: stol.001|dvig2|dvig2|podemniy_mex_controol1|Take 001|BaseLayer|dvig2|pod
+  - first:
+      74: -8773596516403890472
+    second: stol.001|dvig2|dvig2|podemniy_mex_controol2|Take 001|BaseLayer|dvig2|pod
+  - first:
+      74: -8103947247022332989
+    second: stol.001|dvig2|dvig2|podiemniy_mex1|Take 001|BaseLayer|dvig2|podiemniy_m
+  - first:
+      74: -3504788326855805364
+    second: stol.001|dvig2|dvig2|podiemniy_mex2|Take 001|BaseLayer|dvig2|podiemniy_m
+  - first:
+      74: 8548141340610238400
+    second: stol.001|dvig2|dvig2|pylt.001|Take 001|BaseLayer|dvig2|pylt.001|Take 001
+  - first:
+      74: 7001972226961187087
+    second: stol.001|dvig2|dvig2|red_button|Take 001|BaseLayer|dvig2|red_button|Take
+  - first:
+      74: 4485018666331757987
+    second: stol.001|dvig2|dvig2|rog1|Take 001|BaseLayer|dvig2|rog1|Take 001|BaseLay
+  - first:
+      74: 8835343081781749158
+    second: stol.001|dvig2|dvig2|rog2|Take 001|BaseLayer|dvig2|rog2|Take 001|BaseLay
+  - first:
+      74: 1123179963242507749
+    second: stol.001|dvig2|dvig2|rog3|Take 001|BaseLayer|dvig2|rog3|Take 001|BaseLay
+  - first:
+      74: -9054898914267516533
+    second: stol.001|dvig2|dvig2|rog4|Take 001|BaseLayer|dvig2|rog4|Take 001|BaseLay
+  - first:
+      74: 5302197106866413908
+    second: stol.001|dvig2|dvig2|stol.001|Take 001|BaseLayer|dvig2|stol.001|Take 001
+  - first:
+      74: 7765080318302527994
+    second: stol.001|dvig2|dvig2|telega_low|Take 001|BaseLayer|dvig2|telega_low|Take
+  - first:
+      74: 6420219045344236937
+    second: stol.001|dvig2|dvig2|up|Take 001|BaseLayer|dvig2|up|Take 001|BaseLayer
+  - first:
+      74: 6449193795392843311
+    second: stol.001|grey_button|grey_button|controll_rog1|Take 001|BaseLayer|grey_b
+  - first:
+      74: -1789918707174050484
+    second: stol.001|grey_button|grey_button|controll_rog2|Take 001|BaseLayer|grey_b
+  - first:
+      74: 2331181137941065972
+    second: stol.001|grey_button|grey_button|controll_rog3|Take 001|BaseLayer|grey_b
+  - first:
+      74: 5202872546465056991
+    second: stol.001|grey_button|grey_button|controll_rog4|Take 001|BaseLayer|grey_b
+  - first:
+      74: -3162099873794226522
+    second: stol.001|grey_button|grey_button|dvig1|Take 001|BaseLayer|grey_button|dv
+  - first:
+      74: -8086757115726955195
+    second: stol.001|grey_button|grey_button|dvig2|Take 001|BaseLayer|grey_button|dv
+  - first:
+      74: -7828069004154610548
+    second: stol.001|grey_button|grey_button|grey_button|Take 001|BaseLayer|grey_but
+  - first:
+      74: 2209933860053894887
+    second: stol.001|grey_button|grey_button|klych_nosadka|Take 001|BaseLayer|grey_b
+  - first:
+      74: -3759024140054367
+    second: stol.001|grey_button|grey_button|osnova|Take 001|BaseLayer|grey_button|o
+  - first:
+      74: 5659481026683427176
+    second: stol.001|grey_button|grey_button|pod_rog1|Take 001|BaseLayer|grey_button
+  - first:
+      74: -1030050881389171144
+    second: stol.001|grey_button|grey_button|pod_rog2|Take 001|BaseLayer|grey_button
+  - first:
+      74: 4978995481091108292
+    second: stol.001|grey_button|grey_button|pod_rog3|Take 001|BaseLayer|grey_button
+  - first:
+      74: 6292807492074243332
+    second: stol.001|grey_button|grey_button|pod_rog4|Take 001|BaseLayer|grey_button
+  - first:
+      74: 1852596735386798467
+    second: stol.001|grey_button|grey_button|podemniy_mex_controol1|Take 001|BaseLay
+  - first:
+      74: -8304221755400788471
+    second: stol.001|grey_button|grey_button|podemniy_mex_controol2|Take 001|BaseLay
+  - first:
+      74: -2518557601638628462
+    second: stol.001|grey_button|grey_button|podiemniy_mex1|Take 001|BaseLayer|grey_
+  - first:
+      74: 4344971074751826345
+    second: stol.001|grey_button|grey_button|podiemniy_mex2|Take 001|BaseLayer|grey_
+  - first:
+      74: 7979812663426241606
+    second: stol.001|grey_button|grey_button|pylt.001|Take 001|BaseLayer|grey_button
+  - first:
+      74: -2663116354596959383
+    second: stol.001|grey_button|grey_button|red_button|Take 001|BaseLayer|grey_butt
+  - first:
+      74: 1130042024557445707
+    second: stol.001|grey_button|grey_button|rog1|Take 001|BaseLayer|grey_button|rog
+  - first:
+      74: 6510580114551377117
+    second: stol.001|grey_button|grey_button|rog2|Take 001|BaseLayer|grey_button|rog
+  - first:
+      74: -176318150157356852
+    second: stol.001|grey_button|grey_button|rog3|Take 001|BaseLayer|grey_button|rog
+  - first:
+      74: -1480995792899170803
+    second: stol.001|grey_button|grey_button|rog4|Take 001|BaseLayer|grey_button|rog
+  - first:
+      74: -3567734730439358230
+    second: stol.001|grey_button|grey_button|stol.001|Take 001|BaseLayer|grey_button
+  - first:
+      74: -715317304159675725
+    second: stol.001|grey_button|grey_button|telega_low|Take 001|BaseLayer|grey_butt
+  - first:
+      74: 1744083397924539662
+    second: stol.001|grey_button|grey_button|up|Take 001|BaseLayer|grey_button|up|Ta
+  - first:
+      74: 2791802771348970061
+    second: stol.001|klych_nosadka|klych_nosadka|controll_rog1|Take 001|BaseLayer|kl
+  - first:
+      74: -2374965504879893252
+    second: stol.001|klych_nosadka|klych_nosadka|controll_rog2|Take 001|BaseLayer|kl
+  - first:
+      74: 1716755647036841182
+    second: stol.001|klych_nosadka|klych_nosadka|controll_rog3|Take 001|BaseLayer|kl
+  - first:
+      74: 7342861966312746494
+    second: stol.001|klych_nosadka|klych_nosadka|controll_rog4|Take 001|BaseLayer|kl
+  - first:
+      74: -178615593939341686
+    second: stol.001|klych_nosadka|klych_nosadka|dvig1|Take 001|BaseLayer|klych_nosa
+  - first:
+      74: 7071671777540595615
+    second: stol.001|klych_nosadka|klych_nosadka|dvig2|Take 001|BaseLayer|klych_nosa
+  - first:
+      74: -4306967754903522302
+    second: stol.001|klych_nosadka|klych_nosadka|grey_button|Take 001|BaseLayer|klyc
+  - first:
+      74: -7442493375297891564
+    second: stol.001|klych_nosadka|klych_nosadka|klych_nosadka|Take 001|BaseLayer|kl
+  - first:
+      74: -7614278055518416705
+    second: stol.001|klych_nosadka|klych_nosadka|osnova|Take 001|BaseLayer|klych_nos
+  - first:
+      74: 8731813696071919810
+    second: stol.001|klych_nosadka|klych_nosadka|pod_rog1|Take 001|BaseLayer|klych_n
+  - first:
+      74: -7634569840390837966
+    second: stol.001|klych_nosadka|klych_nosadka|pod_rog2|Take 001|BaseLayer|klych_n
+  - first:
+      74: -1908913620441797224
+    second: stol.001|klych_nosadka|klych_nosadka|pod_rog3|Take 001|BaseLayer|klych_n
+  - first:
+      74: 8778635850052160540
+    second: stol.001|klych_nosadka|klych_nosadka|pod_rog4|Take 001|BaseLayer|klych_n
+  - first:
+      74: -5005525200269953035
+    second: stol.001|klych_nosadka|klych_nosadka|podemniy_mex_controol1|Take 001|Bas
+  - first:
+      74: 8766571950997311954
+    second: stol.001|klych_nosadka|klych_nosadka|podemniy_mex_controol2|Take 001|Bas
+  - first:
+      74: 7806642682082776030
+    second: stol.001|klych_nosadka|klych_nosadka|podiemniy_mex1|Take 001|BaseLayer|k
+  - first:
+      74: 6083911751077980201
+    second: stol.001|klych_nosadka|klych_nosadka|podiemniy_mex2|Take 001|BaseLayer|k
+  - first:
+      74: -7921427775321101654
+    second: stol.001|klych_nosadka|klych_nosadka|pylt.001|Take 001|BaseLayer|klych_n
+  - first:
+      74: -4694475931819629485
+    second: stol.001|klych_nosadka|klych_nosadka|red_button|Take 001|BaseLayer|klych
+  - first:
+      74: -140364761095302494
+    second: stol.001|klych_nosadka|klych_nosadka|rog1|Take 001|BaseLayer|klych_nosad
+  - first:
+      74: -6476900259182551645
+    second: stol.001|klych_nosadka|klych_nosadka|rog2|Take 001|BaseLayer|klych_nosad
+  - first:
+      74: -5800124377187198593
+    second: stol.001|klych_nosadka|klych_nosadka|rog3|Take 001|BaseLayer|klych_nosad
+  - first:
+      74: 2047026529140004399
+    second: stol.001|klych_nosadka|klych_nosadka|rog4|Take 001|BaseLayer|klych_nosad
+  - first:
+      74: 3840712273500918893
+    second: stol.001|klych_nosadka|klych_nosadka|stol.001|Take 001|BaseLayer|klych_n
+  - first:
+      74: 404644146488463979
+    second: stol.001|klych_nosadka|klych_nosadka|telega_low|Take 001|BaseLayer|klych
+  - first:
+      74: -3476782132531411105
+    second: stol.001|klych_nosadka|klych_nosadka|up|Take 001|BaseLayer|klych_nosadka
+  - first:
+      74: 3139772457659978524
+    second: stol.001|osnova|osnova|controll_rog1|Take 001|BaseLayer|osnova|controll_
+  - first:
+      74: 5366529143815963888
+    second: stol.001|osnova|osnova|controll_rog2|Take 001|BaseLayer|osnova|controll_
+  - first:
+      74: -6847708325101520502
+    second: stol.001|osnova|osnova|controll_rog3|Take 001|BaseLayer|osnova|controll_
+  - first:
+      74: 744717298607096366
+    second: stol.001|osnova|osnova|controll_rog4|Take 001|BaseLayer|osnova|controll_
+  - first:
+      74: -3398932390751254168
+    second: stol.001|osnova|osnova|dvig1|Take 001|BaseLayer|osnova|dvig1|Take 001|Ba
+  - first:
+      74: -2835711704177980087
+    second: stol.001|osnova|osnova|dvig2|Take 001|BaseLayer|osnova|dvig2|Take 001|Ba
+  - first:
+      74: 2685579394128627008
+    second: stol.001|osnova|osnova|grey_button|Take 001|BaseLayer|osnova|grey_button
+  - first:
+      74: 2255450959828684678
+    second: stol.001|osnova|osnova|klych_nosadka|Take 001|BaseLayer|osnova|klych_nos
+  - first:
+      74: 17272695902662500
+    second: stol.001|osnova|osnova|osnova|Take 001|BaseLayer|osnova|osnova|Take 001|
+  - first:
+      74: 7951209039155650430
+    second: 'stol.001|osnova|osnova|pod_rog1|Take 001|BaseLayer|osnova|pod_rog1|Take '
+  - first:
+      74: 1677412251044271396
+    second: 'stol.001|osnova|osnova|pod_rog2|Take 001|BaseLayer|osnova|pod_rog2|Take '
+  - first:
+      74: -8777115127592143133
+    second: 'stol.001|osnova|osnova|pod_rog3|Take 001|BaseLayer|osnova|pod_rog3|Take '
+  - first:
+      74: -7837235466275401951
+    second: 'stol.001|osnova|osnova|pod_rog4|Take 001|BaseLayer|osnova|pod_rog4|Take '
+  - first:
+      74: -8521564225039873582
+    second: stol.001|osnova|osnova|podemniy_mex_controol1|Take 001|BaseLayer|osnova|
+  - first:
+      74: 367671293195617307
+    second: stol.001|osnova|osnova|podemniy_mex_controol2|Take 001|BaseLayer|osnova|
+  - first:
+      74: -6959674021368259324
+    second: stol.001|osnova|osnova|podiemniy_mex1|Take 001|BaseLayer|osnova|podiemni
+  - first:
+      74: -4663584655022795049
+    second: stol.001|osnova|osnova|podiemniy_mex2|Take 001|BaseLayer|osnova|podiemni
+  - first:
+      74: -3517039910692191318
+    second: 'stol.001|osnova|osnova|pylt.001|Take 001|BaseLayer|osnova|pylt.001|Take '
+  - first:
+      74: 8853822425925869620
+    second: stol.001|osnova|osnova|red_button|Take 001|BaseLayer|osnova|red_button|T
+  - first:
+      74: -9147276948614953679
+    second: stol.001|osnova|osnova|rog1|Take 001|BaseLayer|osnova|rog1|Take 001|Base
+  - first:
+      74: -3282760396871085814
+    second: stol.001|osnova|osnova|rog2|Take 001|BaseLayer|osnova|rog2|Take 001|Base
+  - first:
+      74: -1575515253346716764
+    second: stol.001|osnova|osnova|rog3|Take 001|BaseLayer|osnova|rog3|Take 001|Base
+  - first:
+      74: -5508079811349913727
+    second: stol.001|osnova|osnova|rog4|Take 001|BaseLayer|osnova|rog4|Take 001|Base
+  - first:
+      74: -4051245447904625283
+    second: 'stol.001|osnova|osnova|stol.001|Take 001|BaseLayer|osnova|stol.001|Take '
+  - first:
+      74: 5596413752998285181
+    second: stol.001|osnova|osnova|telega_low|Take 001|BaseLayer|osnova|telega_low|T
+  - first:
+      74: -3107114474865335549
+    second: stol.001|osnova|osnova|up|Take 001|BaseLayer|osnova|up|Take 001|BaseLaye
+  - first:
+      74: -3640174180418776498
+    second: stol.001|pod_rog1|pod_rog1|controll_rog1|Take 001|BaseLayer|pod_rog1|con
+  - first:
+      74: 569620509720310032
+    second: stol.001|pod_rog1|pod_rog1|controll_rog2|Take 001|BaseLayer|pod_rog1|con
+  - first:
+      74: 2894344932744326147
+    second: stol.001|pod_rog1|pod_rog1|controll_rog3|Take 001|BaseLayer|pod_rog1|con
+  - first:
+      74: -7959140110022938193
+    second: stol.001|pod_rog1|pod_rog1|controll_rog4|Take 001|BaseLayer|pod_rog1|con
+  - first:
+      74: 5634057311159803911
+    second: 'stol.001|pod_rog1|pod_rog1|dvig1|Take 001|BaseLayer|pod_rog1|dvig1|Take '
+  - first:
+      74: -1615143785106405882
+    second: 'stol.001|pod_rog1|pod_rog1|dvig2|Take 001|BaseLayer|pod_rog1|dvig2|Take '
+  - first:
+      74: 912328335036716784
+    second: stol.001|pod_rog1|pod_rog1|grey_button|Take 001|BaseLayer|pod_rog1|grey_
+  - first:
+      74: -4951008227721349630
+    second: stol.001|pod_rog1|pod_rog1|klych_nosadka|Take 001|BaseLayer|pod_rog1|kly
+  - first:
+      74: -7459729508108920346
+    second: stol.001|pod_rog1|pod_rog1|osnova|Take 001|BaseLayer|pod_rog1|osnova|Tak
+  - first:
+      74: 2216531801229399676
+    second: stol.001|pod_rog1|pod_rog1|pod_rog1|Take 001|BaseLayer|pod_rog1|pod_rog1
+  - first:
+      74: 3846781507055839016
+    second: stol.001|pod_rog1|pod_rog1|pod_rog2|Take 001|BaseLayer|pod_rog1|pod_rog2
+  - first:
+      74: 3774243005254328961
+    second: stol.001|pod_rog1|pod_rog1|pod_rog3|Take 001|BaseLayer|pod_rog1|pod_rog3
+  - first:
+      74: 7275085282666800539
+    second: stol.001|pod_rog1|pod_rog1|pod_rog4|Take 001|BaseLayer|pod_rog1|pod_rog4
+  - first:
+      74: -1845931214157954978
+    second: stol.001|pod_rog1|pod_rog1|podemniy_mex_controol1|Take 001|BaseLayer|pod
+  - first:
+      74: -7590334300238716529
+    second: stol.001|pod_rog1|pod_rog1|podemniy_mex_controol2|Take 001|BaseLayer|pod
+  - first:
+      74: 1970645850862092835
+    second: stol.001|pod_rog1|pod_rog1|podiemniy_mex1|Take 001|BaseLayer|pod_rog1|po
+  - first:
+      74: 1966355139517923186
+    second: stol.001|pod_rog1|pod_rog1|podiemniy_mex2|Take 001|BaseLayer|pod_rog1|po
+  - first:
+      74: -8292586442245300506
+    second: stol.001|pod_rog1|pod_rog1|pylt.001|Take 001|BaseLayer|pod_rog1|pylt.001
+  - first:
+      74: 1421208848326457630
+    second: stol.001|pod_rog1|pod_rog1|red_button|Take 001|BaseLayer|pod_rog1|red_bu
+  - first:
+      74: 3468731026621494097
+    second: stol.001|pod_rog1|pod_rog1|rog1|Take 001|BaseLayer|pod_rog1|rog1|Take
+      00
+  - first:
+      74: -8910776811164062116
+    second: stol.001|pod_rog1|pod_rog1|rog2|Take 001|BaseLayer|pod_rog1|rog2|Take
+      00
+  - first:
+      74: -1857062373530681961
+    second: stol.001|pod_rog1|pod_rog1|rog3|Take 001|BaseLayer|pod_rog1|rog3|Take
+      00
+  - first:
+      74: 7960005438031050361
+    second: stol.001|pod_rog1|pod_rog1|rog4|Take 001|BaseLayer|pod_rog1|rog4|Take
+      00
+  - first:
+      74: -4403928633058137159
+    second: stol.001|pod_rog1|pod_rog1|stol.001|Take 001|BaseLayer|pod_rog1|stol.001
+  - first:
+      74: -2268560965982537324
+    second: stol.001|pod_rog1|pod_rog1|telega_low|Take 001|BaseLayer|pod_rog1|telega
+  - first:
+      74: -4433433419248392269
+    second: stol.001|pod_rog1|pod_rog1|up|Take 001|BaseLayer|pod_rog1|up|Take 001|Ba
+  - first:
+      74: -5460904172485298414
+    second: stol.001|pod_rog2|pod_rog2|controll_rog1|Take 001|BaseLayer|pod_rog2|con
+  - first:
+      74: -8273354793990558523
+    second: stol.001|pod_rog2|pod_rog2|controll_rog2|Take 001|BaseLayer|pod_rog2|con
+  - first:
+      74: -5435936898200891902
+    second: stol.001|pod_rog2|pod_rog2|controll_rog3|Take 001|BaseLayer|pod_rog2|con
+  - first:
+      74: -5590682986310115093
+    second: stol.001|pod_rog2|pod_rog2|controll_rog4|Take 001|BaseLayer|pod_rog2|con
+  - first:
+      74: -1336673109791841888
+    second: 'stol.001|pod_rog2|pod_rog2|dvig1|Take 001|BaseLayer|pod_rog2|dvig1|Take '
+  - first:
+      74: 9206430455432237425
+    second: 'stol.001|pod_rog2|pod_rog2|dvig2|Take 001|BaseLayer|pod_rog2|dvig2|Take '
+  - first:
+      74: 3857306554656126571
+    second: stol.001|pod_rog2|pod_rog2|grey_button|Take 001|BaseLayer|pod_rog2|grey_
+  - first:
+      74: -2465571781213650880
+    second: stol.001|pod_rog2|pod_rog2|klych_nosadka|Take 001|BaseLayer|pod_rog2|kly
+  - first:
+      74: 2868487403441865051
+    second: stol.001|pod_rog2|pod_rog2|osnova|Take 001|BaseLayer|pod_rog2|osnova|Tak
+  - first:
+      74: -5989627468334209248
+    second: stol.001|pod_rog2|pod_rog2|pod_rog1|Take 001|BaseLayer|pod_rog2|pod_rog1
+  - first:
+      74: -5161549044819115748
+    second: stol.001|pod_rog2|pod_rog2|pod_rog2|Take 001|BaseLayer|pod_rog2|pod_rog2
+  - first:
+      74: 8450775492047754857
+    second: stol.001|pod_rog2|pod_rog2|pod_rog3|Take 001|BaseLayer|pod_rog2|pod_rog3
+  - first:
+      74: -6207568278913722212
+    second: stol.001|pod_rog2|pod_rog2|pod_rog4|Take 001|BaseLayer|pod_rog2|pod_rog4
+  - first:
+      74: 7369970510885494143
+    second: stol.001|pod_rog2|pod_rog2|podemniy_mex_controol1|Take 001|BaseLayer|pod
+  - first:
+      74: 5958869948043565134
+    second: stol.001|pod_rog2|pod_rog2|podemniy_mex_controol2|Take 001|BaseLayer|pod
+  - first:
+      74: -4414700927374153467
+    second: stol.001|pod_rog2|pod_rog2|podiemniy_mex1|Take 001|BaseLayer|pod_rog2|po
+  - first:
+      74: 5545826408100493035
+    second: stol.001|pod_rog2|pod_rog2|podiemniy_mex2|Take 001|BaseLayer|pod_rog2|po
+  - first:
+      74: -8902860875712582207
+    second: stol.001|pod_rog2|pod_rog2|pylt.001|Take 001|BaseLayer|pod_rog2|pylt.001
+  - first:
+      74: 1154885669831777512
+    second: stol.001|pod_rog2|pod_rog2|red_button|Take 001|BaseLayer|pod_rog2|red_bu
+  - first:
+      74: -8628586424485280599
+    second: stol.001|pod_rog2|pod_rog2|rog1|Take 001|BaseLayer|pod_rog2|rog1|Take
+      00
+  - first:
+      74: -7031878430721486337
+    second: stol.001|pod_rog2|pod_rog2|rog2|Take 001|BaseLayer|pod_rog2|rog2|Take
+      00
+  - first:
+      74: -7204700517108473614
+    second: stol.001|pod_rog2|pod_rog2|rog3|Take 001|BaseLayer|pod_rog2|rog3|Take
+      00
+  - first:
+      74: -3233767282178111474
+    second: stol.001|pod_rog2|pod_rog2|rog4|Take 001|BaseLayer|pod_rog2|rog4|Take
+      00
+  - first:
+      74: -1404398184138784098
+    second: stol.001|pod_rog2|pod_rog2|stol.001|Take 001|BaseLayer|pod_rog2|stol.001
+  - first:
+      74: -8559810218540646049
+    second: stol.001|pod_rog2|pod_rog2|telega_low|Take 001|BaseLayer|pod_rog2|telega
+  - first:
+      74: -8380829794813500302
+    second: stol.001|pod_rog2|pod_rog2|up|Take 001|BaseLayer|pod_rog2|up|Take 001|Ba
+  - first:
+      74: -698529118243013982
+    second: stol.001|pod_rog3|pod_rog3|controll_rog1|Take 001|BaseLayer|pod_rog3|con
+  - first:
+      74: 5749349400826624283
+    second: stol.001|pod_rog3|pod_rog3|controll_rog2|Take 001|BaseLayer|pod_rog3|con
+  - first:
+      74: -5289508822774485195
+    second: stol.001|pod_rog3|pod_rog3|controll_rog3|Take 001|BaseLayer|pod_rog3|con
+  - first:
+      74: -127787709794697403
+    second: stol.001|pod_rog3|pod_rog3|controll_rog4|Take 001|BaseLayer|pod_rog3|con
+  - first:
+      74: 741303641782379600
+    second: 'stol.001|pod_rog3|pod_rog3|dvig1|Take 001|BaseLayer|pod_rog3|dvig1|Take '
+  - first:
+      74: -5203205037435846761
+    second: 'stol.001|pod_rog3|pod_rog3|dvig2|Take 001|BaseLayer|pod_rog3|dvig2|Take '
+  - first:
+      74: 7415504703507253580
+    second: stol.001|pod_rog3|pod_rog3|grey_button|Take 001|BaseLayer|pod_rog3|grey_
+  - first:
+      74: 3649649311092404026
+    second: stol.001|pod_rog3|pod_rog3|klych_nosadka|Take 001|BaseLayer|pod_rog3|kly
+  - first:
+      74: 2520974545783188936
+    second: stol.001|pod_rog3|pod_rog3|osnova|Take 001|BaseLayer|pod_rog3|osnova|Tak
+  - first:
+      74: 7011540335119691149
+    second: stol.001|pod_rog3|pod_rog3|pod_rog1|Take 001|BaseLayer|pod_rog3|pod_rog1
+  - first:
+      74: 4726481433532976089
+    second: stol.001|pod_rog3|pod_rog3|pod_rog2|Take 001|BaseLayer|pod_rog3|pod_rog2
+  - first:
+      74: 1018240801008147908
+    second: stol.001|pod_rog3|pod_rog3|pod_rog3|Take 001|BaseLayer|pod_rog3|pod_rog3
+  - first:
+      74: -6568779273017668106
+    second: stol.001|pod_rog3|pod_rog3|pod_rog4|Take 001|BaseLayer|pod_rog3|pod_rog4
+  - first:
+      74: 1681934538415694646
+    second: stol.001|pod_rog3|pod_rog3|podemniy_mex_controol1|Take 001|BaseLayer|pod
+  - first:
+      74: 1612168545298316212
+    second: stol.001|pod_rog3|pod_rog3|podemniy_mex_controol2|Take 001|BaseLayer|pod
+  - first:
+      74: -6751996944741448000
+    second: stol.001|pod_rog3|pod_rog3|podiemniy_mex1|Take 001|BaseLayer|pod_rog3|po
+  - first:
+      74: -5713176627336125022
+    second: stol.001|pod_rog3|pod_rog3|podiemniy_mex2|Take 001|BaseLayer|pod_rog3|po
+  - first:
+      74: 2014192147541221393
+    second: stol.001|pod_rog3|pod_rog3|pylt.001|Take 001|BaseLayer|pod_rog3|pylt.001
+  - first:
+      74: 7762957959470103460
+    second: stol.001|pod_rog3|pod_rog3|red_button|Take 001|BaseLayer|pod_rog3|red_bu
+  - first:
+      74: 8990449379905009923
+    second: stol.001|pod_rog3|pod_rog3|rog1|Take 001|BaseLayer|pod_rog3|rog1|Take
+      00
+  - first:
+      74: 5631504504226121716
+    second: stol.001|pod_rog3|pod_rog3|rog2|Take 001|BaseLayer|pod_rog3|rog2|Take
+      00
+  - first:
+      74: 7215354667247649269
+    second: stol.001|pod_rog3|pod_rog3|rog3|Take 001|BaseLayer|pod_rog3|rog3|Take
+      00
+  - first:
+      74: 7943231899254947326
+    second: stol.001|pod_rog3|pod_rog3|rog4|Take 001|BaseLayer|pod_rog3|rog4|Take
+      00
+  - first:
+      74: -6119457230344473874
+    second: stol.001|pod_rog3|pod_rog3|stol.001|Take 001|BaseLayer|pod_rog3|stol.001
+  - first:
+      74: 8625392138250370701
+    second: stol.001|pod_rog3|pod_rog3|telega_low|Take 001|BaseLayer|pod_rog3|telega
+  - first:
+      74: 19922356539057291
+    second: stol.001|pod_rog3|pod_rog3|up|Take 001|BaseLayer|pod_rog3|up|Take 001|Ba
+  - first:
+      74: -5064962342371995805
+    second: stol.001|pod_rog4|pod_rog4|controll_rog1|Take 001|BaseLayer|pod_rog4|con
+  - first:
+      74: 8254001545998539949
+    second: stol.001|pod_rog4|pod_rog4|controll_rog2|Take 001|BaseLayer|pod_rog4|con
+  - first:
+      74: -69839352625957348
+    second: stol.001|pod_rog4|pod_rog4|controll_rog3|Take 001|BaseLayer|pod_rog4|con
+  - first:
+      74: -3627825029801775456
+    second: stol.001|pod_rog4|pod_rog4|controll_rog4|Take 001|BaseLayer|pod_rog4|con
+  - first:
+      74: 8368130595698411825
+    second: 'stol.001|pod_rog4|pod_rog4|dvig1|Take 001|BaseLayer|pod_rog4|dvig1|Take '
+  - first:
+      74: 7821552329536903146
+    second: 'stol.001|pod_rog4|pod_rog4|dvig2|Take 001|BaseLayer|pod_rog4|dvig2|Take '
+  - first:
+      74: -8817680806704673301
+    second: stol.001|pod_rog4|pod_rog4|grey_button|Take 001|BaseLayer|pod_rog4|grey_
+  - first:
+      74: -3763137230925757574
+    second: stol.001|pod_rog4|pod_rog4|klych_nosadka|Take 001|BaseLayer|pod_rog4|kly
+  - first:
+      74: -5691358227895641012
+    second: stol.001|pod_rog4|pod_rog4|osnova|Take 001|BaseLayer|pod_rog4|osnova|Tak
+  - first:
+      74: -4939059168555172105
+    second: stol.001|pod_rog4|pod_rog4|pod_rog1|Take 001|BaseLayer|pod_rog4|pod_rog1
+  - first:
+      74: 193686010333546917
+    second: stol.001|pod_rog4|pod_rog4|pod_rog2|Take 001|BaseLayer|pod_rog4|pod_rog2
+  - first:
+      74: 3588579337692384081
+    second: stol.001|pod_rog4|pod_rog4|pod_rog3|Take 001|BaseLayer|pod_rog4|pod_rog3
+  - first:
+      74: -8269930255902169986
+    second: stol.001|pod_rog4|pod_rog4|pod_rog4|Take 001|BaseLayer|pod_rog4|pod_rog4
+  - first:
+      74: 5929914632428899539
+    second: stol.001|pod_rog4|pod_rog4|podemniy_mex_controol1|Take 001|BaseLayer|pod
+  - first:
+      74: 2128598886556291606
+    second: stol.001|pod_rog4|pod_rog4|podemniy_mex_controol2|Take 001|BaseLayer|pod
+  - first:
+      74: -3008349467157493256
+    second: stol.001|pod_rog4|pod_rog4|podiemniy_mex1|Take 001|BaseLayer|pod_rog4|po
+  - first:
+      74: 1757946180985940060
+    second: stol.001|pod_rog4|pod_rog4|podiemniy_mex2|Take 001|BaseLayer|pod_rog4|po
+  - first:
+      74: 730464870300734862
+    second: stol.001|pod_rog4|pod_rog4|pylt.001|Take 001|BaseLayer|pod_rog4|pylt.001
+  - first:
+      74: -7127050751668951988
+    second: stol.001|pod_rog4|pod_rog4|red_button|Take 001|BaseLayer|pod_rog4|red_bu
+  - first:
+      74: 4702053515986735633
+    second: stol.001|pod_rog4|pod_rog4|rog1|Take 001|BaseLayer|pod_rog4|rog1|Take
+      00
+  - first:
+      74: 7777767496557427800
+    second: stol.001|pod_rog4|pod_rog4|rog2|Take 001|BaseLayer|pod_rog4|rog2|Take
+      00
+  - first:
+      74: 4934304125008975017
+    second: stol.001|pod_rog4|pod_rog4|rog3|Take 001|BaseLayer|pod_rog4|rog3|Take
+      00
+  - first:
+      74: 1554863755249490935
+    second: stol.001|pod_rog4|pod_rog4|rog4|Take 001|BaseLayer|pod_rog4|rog4|Take
+      00
+  - first:
+      74: -7472861895978844643
+    second: stol.001|pod_rog4|pod_rog4|stol.001|Take 001|BaseLayer|pod_rog4|stol.001
+  - first:
+      74: 1676723111263638998
+    second: stol.001|pod_rog4|pod_rog4|telega_low|Take 001|BaseLayer|pod_rog4|telega
+  - first:
+      74: -407891375303314362
+    second: stol.001|pod_rog4|pod_rog4|up|Take 001|BaseLayer|pod_rog4|up|Take 001|Ba
+  - first:
+      74: 8854907721672383008
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|controll_rog1|Tak
+  - first:
+      74: -3370648805629192088
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|controll_rog2|Tak
+  - first:
+      74: -1528941077144777801
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|controll_rog3|Tak
+  - first:
+      74: 4261983604210980512
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|controll_rog4|Tak
+  - first:
+      74: -4455934916205519136
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|dvig1|Take 001|Ba
+  - first:
+      74: 6505547641509541408
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|dvig2|Take 001|Ba
+  - first:
+      74: 7551026800203714193
+    second: 'stol.001|podemniy_mex_controol1|podemniy_mex_controol1|grey_button|Take '
+  - first:
+      74: 3682717567373325756
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|klych_nosadka|Tak
+  - first:
+      74: -4217499960477127006
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|osnova|Take 001|B
+  - first:
+      74: 853837342264359702
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|pod_rog1|Take 001
+  - first:
+      74: 4837610919307008259
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|pod_rog2|Take 001
+  - first:
+      74: -6573601866418691189
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|pod_rog3|Take 001
+  - first:
+      74: 4386164826029550279
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|pod_rog4|Take 001
+  - first:
+      74: 2021390983122644214
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|podemniy_mex_.000
+  - first:
+      74: -3152810902478952471
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|podemniy_mex_cont
+  - first:
+      74: 7871985889536927484
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|podiemniy_mex1|Ta
+  - first:
+      74: -514690983352838680
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|podiemniy_mex2|Ta
+  - first:
+      74: -5513564434356041636
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|pylt.001|Take 001
+  - first:
+      74: 2779310502075302775
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|red_button|Take
+      0
+  - first:
+      74: 1011684735737894817
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|rog1|Take 001|Bas
+  - first:
+      74: 6146305099529641773
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|rog2|Take 001|Bas
+  - first:
+      74: -2732808375292353985
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|rog3|Take 001|Bas
+  - first:
+      74: 7065908282013468939
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|rog4|Take 001|Bas
+  - first:
+      74: 7862734737574452841
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|stol.001|Take 001
+  - first:
+      74: -6816026289136566169
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|telega_low|Take
+      0
+  - first:
+      74: -5210395976564217920
+    second: stol.001|podemniy_mex_controol1|podemniy_mex_controol1|up|Take 001|BaseL
+  - first:
+      74: 8662457855439283681
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|controll_rog1|Tak
+  - first:
+      74: -6808067673418699178
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|controll_rog2|Tak
+  - first:
+      74: 3263207750757981636
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|controll_rog3|Tak
+  - first:
+      74: -5305061551793861033
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|controll_rog4|Tak
+  - first:
+      74: -8806250636227670291
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|dvig1|Take 001|Ba
+  - first:
+      74: 2362181189718694001
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|dvig2|Take 001|Ba
+  - first:
+      74: -4658251530239807366
+    second: 'stol.001|podemniy_mex_controol2|podemniy_mex_controol2|grey_button|Take '
+  - first:
+      74: 607527672336879829
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|klych_nosadka|Tak
+  - first:
+      74: 3069311938113193894
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|osnova|Take 001|B
+  - first:
+      74: 7618596705254803178
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|pod_rog1|Take 001
+  - first:
+      74: -156901799991638987
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|pod_rog2|Take 001
+  - first:
+      74: 6696959238313093735
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|pod_rog3|Take 001
+  - first:
+      74: -7404234503171833074
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|pod_rog4|Take 001
+  - first:
+      74: 6466670198507256501
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|podemniy_mex_.000
+  - first:
+      74: -4642707211413490672
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|podemniy_mex_cont
+  - first:
+      74: -8730640893162594
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|podiemniy_mex1|Ta
+  - first:
+      74: -4400320620186529345
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|podiemniy_mex2|Ta
+  - first:
+      74: 1741142062893147625
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|pylt.001|Take 001
+  - first:
+      74: -2073617653718347690
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|red_button|Take
+      0
+  - first:
+      74: -7574517946179043012
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|rog1|Take 001|Bas
+  - first:
+      74: -5216516521688689964
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|rog2|Take 001|Bas
+  - first:
+      74: 1946320729300797828
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|rog3|Take 001|Bas
+  - first:
+      74: -6951023228347603268
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|rog4|Take 001|Bas
+  - first:
+      74: 4498434439226118180
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|stol.001|Take 001
+  - first:
+      74: 5040964803188186716
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|telega_low|Take
+      0
+  - first:
+      74: -7671134259254857123
+    second: stol.001|podemniy_mex_controol2|podemniy_mex_controol2|up|Take 001|BaseL
+  - first:
+      74: -9126422844691175432
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|controll_rog1|Take 001|BaseLayer|
+  - first:
+      74: -5146778817654131655
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|controll_rog2|Take 001|BaseLayer|
+  - first:
+      74: 4118757137925875494
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|controll_rog3|Take 001|BaseLayer|
+  - first:
+      74: 3472365864555489233
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|controll_rog4|Take 001|BaseLayer|
+  - first:
+      74: -1431400942267906797
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|dvig1|Take 001|BaseLayer|podiemni
+  - first:
+      74: -6832074912697956927
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|dvig2|Take 001|BaseLayer|podiemni
+  - first:
+      74: -1489872741447279326
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|grey_button|Take 001|BaseLayer|po
+  - first:
+      74: -5704839947831695610
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|klych_nosadka|Take 001|BaseLayer|
+  - first:
+      74: 6894804860839782155
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|osnova|Take 001|BaseLayer|podiemn
+  - first:
+      74: -1504192283518654201
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|pod_rog1|Take 001|BaseLayer|podie
+  - first:
+      74: 2445605852765171228
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|pod_rog2|Take 001|BaseLayer|podie
+  - first:
+      74: -7292092823261314236
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|pod_rog3|Take 001|BaseLayer|podie
+  - first:
+      74: 4869040285170217581
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|pod_rog4|Take 001|BaseLayer|podie
+  - first:
+      74: 264704801690568479
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|podemniy_mex_controol1|Take 001|B
+  - first:
+      74: 4767696184047756675
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|podemniy_mex_controol2|Take 001|B
+  - first:
+      74: -6913888950531522078
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|podiemniy_mex1|Take 001|BaseLayer
+  - first:
+      74: 3029578372863200188
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|podiemniy_mex2|Take 001|BaseLayer
+  - first:
+      74: 4845002790401952182
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|pylt.001|Take 001|BaseLayer|podie
+  - first:
+      74: -2841631460957899544
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|red_button|Take 001|BaseLayer|pod
+  - first:
+      74: 8676672708095402025
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|rog1|Take 001|BaseLayer|podiemniy
+  - first:
+      74: 2446715413849290749
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|rog2|Take 001|BaseLayer|podiemniy
+  - first:
+      74: -8938189369642262887
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|rog3|Take 001|BaseLayer|podiemniy
+  - first:
+      74: 4209804938052422469
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|rog4|Take 001|BaseLayer|podiemniy
+  - first:
+      74: 3154721305591846620
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|stol.001|Take 001|BaseLayer|podie
+  - first:
+      74: 717641251693998477
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|telega_low|Take 001|BaseLayer|pod
+  - first:
+      74: -7460823311440550832
+    second: stol.001|podiemniy_mex1|podiemniy_mex1|up|Take 001|BaseLayer|podiemniy_m
+  - first:
+      74: 78126685280237265
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|controll_rog1|Take 001|BaseLayer|
+  - first:
+      74: 6781479646163981229
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|controll_rog2|Take 001|BaseLayer|
+  - first:
+      74: 2642072021811703431
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|controll_rog3|Take 001|BaseLayer|
+  - first:
+      74: 5706221360920907009
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|controll_rog4|Take 001|BaseLayer|
+  - first:
+      74: 803928941400025882
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|dvig1|Take 001|BaseLayer|podiemni
+  - first:
+      74: 772997611429081341
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|dvig2|Take 001|BaseLayer|podiemni
+  - first:
+      74: -7524229610246623330
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|grey_button|Take 001|BaseLayer|po
+  - first:
+      74: 862671469543066075
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|klych_nosadka|Take 001|BaseLayer|
+  - first:
+      74: 6784346881264359810
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|osnova|Take 001|BaseLayer|podiemn
+  - first:
+      74: -6343841168245589736
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|pod_rog1|Take 001|BaseLayer|podie
+  - first:
+      74: -1208710200125343635
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|pod_rog2|Take 001|BaseLayer|podie
+  - first:
+      74: 1857423497722574412
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|pod_rog3|Take 001|BaseLayer|podie
+  - first:
+      74: 8198741704586864894
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|pod_rog4|Take 001|BaseLayer|podie
+  - first:
+      74: -6619878591536432986
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|podemniy_mex_controol1|Take 001|B
+  - first:
+      74: 3940234328640522031
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|podemniy_mex_controol2|Take 001|B
+  - first:
+      74: 6218931760165968965
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|podiemniy_mex1|Take 001|BaseLayer
+  - first:
+      74: 1641863844162758830
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|podiemniy_mex2|Take 001|BaseLayer
+  - first:
+      74: -1066169472597989647
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|pylt.001|Take 001|BaseLayer|podie
+  - first:
+      74: -8612917699567692465
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|red_button|Take 001|BaseLayer|pod
+  - first:
+      74: 5534788965962304608
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|rog1|Take 001|BaseLayer|podiemniy
+  - first:
+      74: 5818892370398135239
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|rog2|Take 001|BaseLayer|podiemniy
+  - first:
+      74: 8192533250515303386
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|rog3|Take 001|BaseLayer|podiemniy
+  - first:
+      74: -8745730034702669093
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|rog4|Take 001|BaseLayer|podiemniy
+  - first:
+      74: 6401804922273304137
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|stol.001|Take 001|BaseLayer|podie
+  - first:
+      74: -526172778457539992
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|telega_low|Take 001|BaseLayer|pod
+  - first:
+      74: -6845796731035555514
+    second: stol.001|podiemniy_mex2|podiemniy_mex2|up|Take 001|BaseLayer|podiemniy_m
+  - first:
+      74: -4086804501488327664
+    second: stol.001|pylt.001|pylt.001|controll_rog1|Take 001|BaseLayer|pylt.001|con
+  - first:
+      74: 4586898420629600549
+    second: stol.001|pylt.001|pylt.001|controll_rog2|Take 001|BaseLayer|pylt.001|con
+  - first:
+      74: -8972020052840286390
+    second: stol.001|pylt.001|pylt.001|controll_rog3|Take 001|BaseLayer|pylt.001|con
+  - first:
+      74: 5162629553033366985
+    second: stol.001|pylt.001|pylt.001|controll_rog4|Take 001|BaseLayer|pylt.001|con
+  - first:
+      74: 8063147986239074096
+    second: 'stol.001|pylt.001|pylt.001|dvig1|Take 001|BaseLayer|pylt.001|dvig1|Take '
+  - first:
+      74: 4737791435704197713
+    second: 'stol.001|pylt.001|pylt.001|dvig2|Take 001|BaseLayer|pylt.001|dvig2|Take '
+  - first:
+      74: -7357331392670955577
+    second: stol.001|pylt.001|pylt.001|grey_button|Take 001|BaseLayer|pylt.001|grey_
+  - first:
+      74: 6525874249486187178
+    second: stol.001|pylt.001|pylt.001|klych_nosadka|Take 001|BaseLayer|pylt.001|kly
+  - first:
+      74: -1925187248062199883
+    second: stol.001|pylt.001|pylt.001|osnova|Take 001|BaseLayer|pylt.001|osnova|Tak
+  - first:
+      74: -18608282896733550
+    second: stol.001|pylt.001|pylt.001|pod_rog1|Take 001|BaseLayer|pylt.001|pod_rog1
+  - first:
+      74: 1125528904922840867
+    second: stol.001|pylt.001|pylt.001|pod_rog2|Take 001|BaseLayer|pylt.001|pod_rog2
+  - first:
+      74: -306562099953033118
+    second: stol.001|pylt.001|pylt.001|pod_rog3|Take 001|BaseLayer|pylt.001|pod_rog3
+  - first:
+      74: -2466399494309085828
+    second: stol.001|pylt.001|pylt.001|pod_rog4|Take 001|BaseLayer|pylt.001|pod_rog4
+  - first:
+      74: 5053789612197148851
+    second: stol.001|pylt.001|pylt.001|podemniy_mex_controol1|Take 001|BaseLayer|pyl
+  - first:
+      74: 4289831217150904645
+    second: stol.001|pylt.001|pylt.001|podemniy_mex_controol2|Take 001|BaseLayer|pyl
+  - first:
+      74: -2721314191143208030
+    second: stol.001|pylt.001|pylt.001|podiemniy_mex1|Take 001|BaseLayer|pylt.001|po
+  - first:
+      74: 5138449489424572677
+    second: stol.001|pylt.001|pylt.001|podiemniy_mex2|Take 001|BaseLayer|pylt.001|po
+  - first:
+      74: 1047031969921799465
+    second: stol.001|pylt.001|pylt.001|pylt.001|Take 001|BaseLayer|pylt.001|pylt.001
+  - first:
+      74: -8657654666302439962
+    second: stol.001|pylt.001|pylt.001|red_button|Take 001|BaseLayer|pylt.001|red_bu
+  - first:
+      74: 7576553854347856669
+    second: stol.001|pylt.001|pylt.001|rog1|Take 001|BaseLayer|pylt.001|rog1|Take
+      00
+  - first:
+      74: -8337511934265280588
+    second: stol.001|pylt.001|pylt.001|rog2|Take 001|BaseLayer|pylt.001|rog2|Take
+      00
+  - first:
+      74: -499323705292730421
+    second: stol.001|pylt.001|pylt.001|rog3|Take 001|BaseLayer|pylt.001|rog3|Take
+      00
+  - first:
+      74: -5089536775655308754
+    second: stol.001|pylt.001|pylt.001|rog4|Take 001|BaseLayer|pylt.001|rog4|Take
+      00
+  - first:
+      74: 7968552403355493980
+    second: stol.001|pylt.001|pylt.001|stol.001|Take 001|BaseLayer|pylt.001|stol.001
+  - first:
+      74: -7590352702050319723
+    second: stol.001|pylt.001|pylt.001|telega_low|Take 001|BaseLayer|pylt.001|telega
+  - first:
+      74: 4734159840440030268
+    second: stol.001|pylt.001|pylt.001|up|Take 001|BaseLayer|pylt.001|up|Take 001|Ba
+  - first:
+      74: 1449980520378703887
+    second: stol.001|red_button|red_button|controll_rog1|Take 001|BaseLayer|red_butt
+  - first:
+      74: 2865992241712491821
+    second: stol.001|red_button|red_button|controll_rog2|Take 001|BaseLayer|red_butt
+  - first:
+      74: -9084706286788937249
+    second: stol.001|red_button|red_button|controll_rog3|Take 001|BaseLayer|red_butt
+  - first:
+      74: 5131682080245044828
+    second: stol.001|red_button|red_button|controll_rog4|Take 001|BaseLayer|red_butt
+  - first:
+      74: -8362340145534137101
+    second: stol.001|red_button|red_button|dvig1|Take 001|BaseLayer|red_button|dvig1
+  - first:
+      74: -8871737233445502734
+    second: stol.001|red_button|red_button|dvig2|Take 001|BaseLayer|red_button|dvig2
+  - first:
+      74: -7123941049720726651
+    second: stol.001|red_button|red_button|grey_button|Take 001|BaseLayer|red_button
+  - first:
+      74: 4254234631808269614
+    second: stol.001|red_button|red_button|klych_nosadka|Take 001|BaseLayer|red_butt
+  - first:
+      74: -1826215591414810300
+    second: stol.001|red_button|red_button|osnova|Take 001|BaseLayer|red_button|osno
+  - first:
+      74: -1375400187964771927
+    second: stol.001|red_button|red_button|pod_rog1|Take 001|BaseLayer|red_button|po
+  - first:
+      74: 4779774075871285646
+    second: stol.001|red_button|red_button|pod_rog2|Take 001|BaseLayer|red_button|po
+  - first:
+      74: 7985773085318075917
+    second: stol.001|red_button|red_button|pod_rog3|Take 001|BaseLayer|red_button|po
+  - first:
+      74: -993289509415978795
+    second: stol.001|red_button|red_button|pod_rog4|Take 001|BaseLayer|red_button|po
+  - first:
+      74: 5813993617543104204
+    second: stol.001|red_button|red_button|podemniy_mex_controol1|Take 001|BaseLayer
+  - first:
+      74: -5991422247195712570
+    second: stol.001|red_button|red_button|podemniy_mex_controol2|Take 001|BaseLayer
+  - first:
+      74: 4463396173059464767
+    second: stol.001|red_button|red_button|podiemniy_mex1|Take 001|BaseLayer|red_but
+  - first:
+      74: -2976684055625369464
+    second: stol.001|red_button|red_button|podiemniy_mex2|Take 001|BaseLayer|red_but
+  - first:
+      74: 6426365550610047202
+    second: stol.001|red_button|red_button|pylt.001|Take 001|BaseLayer|red_button|py
+  - first:
+      74: -8581818612305522223
+    second: stol.001|red_button|red_button|red_button|Take 001|BaseLayer|red_button|
+  - first:
+      74: 4580965403883273791
+    second: stol.001|red_button|red_button|rog1|Take 001|BaseLayer|red_button|rog1|T
+  - first:
+      74: 3228376940734261529
+    second: stol.001|red_button|red_button|rog2|Take 001|BaseLayer|red_button|rog2|T
+  - first:
+      74: 7979128506809113780
+    second: stol.001|red_button|red_button|rog3|Take 001|BaseLayer|red_button|rog3|T
+  - first:
+      74: -8149708784506062856
+    second: stol.001|red_button|red_button|rog4|Take 001|BaseLayer|red_button|rog4|T
+  - first:
+      74: 2334648958932068867
+    second: stol.001|red_button|red_button|stol.001|Take 001|BaseLayer|red_button|st
+  - first:
+      74: 2452607687614657455
+    second: stol.001|red_button|red_button|telega_low|Take 001|BaseLayer|red_button|
+  - first:
+      74: -7949114515730611185
+    second: 'stol.001|red_button|red_button|up|Take 001|BaseLayer|red_button|up|Take '
+  - first:
+      74: 6170825201143994551
+    second: stol.001|rog1|rog1|controll_rog1|Take 001|BaseLayer|rog1|controll_rog1|T
+  - first:
+      74: 3416005557995822559
+    second: stol.001|rog1|rog1|controll_rog2|Take 001|BaseLayer|rog1|controll_rog2|T
+  - first:
+      74: 6952873026727073427
+    second: stol.001|rog1|rog1|controll_rog3|Take 001|BaseLayer|rog1|controll_rog3|T
+  - first:
+      74: -9133321236662718962
+    second: stol.001|rog1|rog1|controll_rog4|Take 001|BaseLayer|rog1|controll_rog4|T
+  - first:
+      74: 5588837742313476142
+    second: stol.001|rog1|rog1|dvig1|Take 001|BaseLayer|rog1|dvig1|Take 001|BaseLaye
+  - first:
+      74: -264532766985385027
+    second: stol.001|rog1|rog1|dvig2|Take 001|BaseLayer|rog1|dvig2|Take 001|BaseLaye
+  - first:
+      74: -202099955618234603
+    second: 'stol.001|rog1|rog1|grey_button|Take 001|BaseLayer|rog1|grey_button|Take '
+  - first:
+      74: 8982815768521820518
+    second: stol.001|rog1|rog1|klych_nosadka|Take 001|BaseLayer|rog1|klych_nosadka|T
+  - first:
+      74: 5214894367473611613
+    second: stol.001|rog1|rog1|osnova|Take 001|BaseLayer|rog1|osnova|Take 001|BaseLa
+  - first:
+      74: -7409150230108167668
+    second: stol.001|rog1|rog1|pod_rog1|Take 001|BaseLayer|rog1|pod_rog1|Take 001|Ba
+  - first:
+      74: -3138047316786554764
+    second: stol.001|rog1|rog1|pod_rog2|Take 001|BaseLayer|rog1|pod_rog2|Take 001|Ba
+  - first:
+      74: 5649056011198562486
+    second: stol.001|rog1|rog1|pod_rog3|Take 001|BaseLayer|rog1|pod_rog3|Take 001|Ba
+  - first:
+      74: 5393624119259029833
+    second: stol.001|rog1|rog1|pod_rog4|Take 001|BaseLayer|rog1|pod_rog4|Take 001|Ba
+  - first:
+      74: -3390128718125694072
+    second: stol.001|rog1|rog1|podemniy_mex_controol1|Take 001|BaseLayer|rog1|podemn
+  - first:
+      74: 542231199343060202
+    second: stol.001|rog1|rog1|podemniy_mex_controol2|Take 001|BaseLayer|rog1|podemn
+  - first:
+      74: -4098641290481059997
+    second: stol.001|rog1|rog1|podiemniy_mex1|Take 001|BaseLayer|rog1|podiemniy_mex1
+  - first:
+      74: -933348005123874512
+    second: stol.001|rog1|rog1|podiemniy_mex2|Take 001|BaseLayer|rog1|podiemniy_mex2
+  - first:
+      74: -5563343838442843422
+    second: stol.001|rog1|rog1|pylt.001|Take 001|BaseLayer|rog1|pylt.001|Take 001|Ba
+  - first:
+      74: 3326518847648254655
+    second: stol.001|rog1|rog1|red_button|Take 001|BaseLayer|rog1|red_button|Take
+      00
+  - first:
+      74: 6814044569775804267
+    second: stol.001|rog1|rog1|rog1|Take 001|BaseLayer|rog1|rog1|Take 001|BaseLayer
+  - first:
+      74: 4861752931981678541
+    second: stol.001|rog1|rog1|rog2|Take 001|BaseLayer|rog1|rog2|Take 001|BaseLayer
+  - first:
+      74: -5049830744362444623
+    second: stol.001|rog1|rog1|rog3|Take 001|BaseLayer|rog1|rog3|Take 001|BaseLayer
+  - first:
+      74: 259935445656332068
+    second: stol.001|rog1|rog1|rog4|Take 001|BaseLayer|rog1|rog4|Take 001|BaseLayer
+  - first:
+      74: 6568727670098170495
+    second: stol.001|rog1|rog1|stol.001|Take 001|BaseLayer|rog1|stol.001|Take 001|Ba
+  - first:
+      74: -7119780051813246129
+    second: stol.001|rog1|rog1|telega_low|Take 001|BaseLayer|rog1|telega_low|Take
+      00
+  - first:
+      74: -3474501283400107889
+    second: stol.001|rog1|rog1|up|Take 001|BaseLayer|rog1|up|Take 001|BaseLayer
+  - first:
+      74: 2330565888887087375
+    second: stol.001|rog2|rog2|controll_rog1|Take 001|BaseLayer|rog2|controll_rog1|T
+  - first:
+      74: -1497476017243280396
+    second: stol.001|rog2|rog2|controll_rog2|Take 001|BaseLayer|rog2|controll_rog2|T
+  - first:
+      74: -4504535647337397527
+    second: stol.001|rog2|rog2|controll_rog3|Take 001|BaseLayer|rog2|controll_rog3|T
+  - first:
+      74: -5987081480583019193
+    second: stol.001|rog2|rog2|controll_rog4|Take 001|BaseLayer|rog2|controll_rog4|T
+  - first:
+      74: -9129779490493341780
+    second: stol.001|rog2|rog2|dvig1|Take 001|BaseLayer|rog2|dvig1|Take 001|BaseLaye
+  - first:
+      74: -655457274239585221
+    second: stol.001|rog2|rog2|dvig2|Take 001|BaseLayer|rog2|dvig2|Take 001|BaseLaye
+  - first:
+      74: -1409140726840634662
+    second: 'stol.001|rog2|rog2|grey_button|Take 001|BaseLayer|rog2|grey_button|Take '
+  - first:
+      74: 8147996775571091688
+    second: stol.001|rog2|rog2|klych_nosadka|Take 001|BaseLayer|rog2|klych_nosadka|T
+  - first:
+      74: -2006896690758075663
+    second: stol.001|rog2|rog2|osnova|Take 001|BaseLayer|rog2|osnova|Take 001|BaseLa
+  - first:
+      74: 6556691500945596228
+    second: stol.001|rog2|rog2|pod_rog1|Take 001|BaseLayer|rog2|pod_rog1|Take 001|Ba
+  - first:
+      74: 6674497069072766159
+    second: stol.001|rog2|rog2|pod_rog2|Take 001|BaseLayer|rog2|pod_rog2|Take 001|Ba
+  - first:
+      74: 1643382981551724872
+    second: stol.001|rog2|rog2|pod_rog3|Take 001|BaseLayer|rog2|pod_rog3|Take 001|Ba
+  - first:
+      74: 4077360104283162497
+    second: stol.001|rog2|rog2|pod_rog4|Take 001|BaseLayer|rog2|pod_rog4|Take 001|Ba
+  - first:
+      74: 6067267549584433983
+    second: stol.001|rog2|rog2|podemniy_mex_controol1|Take 001|BaseLayer|rog2|podemn
+  - first:
+      74: 1807637751050274175
+    second: stol.001|rog2|rog2|podemniy_mex_controol2|Take 001|BaseLayer|rog2|podemn
+  - first:
+      74: -1426792113116074598
+    second: stol.001|rog2|rog2|podiemniy_mex1|Take 001|BaseLayer|rog2|podiemniy_mex1
+  - first:
+      74: -3458408302018500192
+    second: stol.001|rog2|rog2|podiemniy_mex2|Take 001|BaseLayer|rog2|podiemniy_mex2
+  - first:
+      74: 934500210814266544
+    second: stol.001|rog2|rog2|pylt.001|Take 001|BaseLayer|rog2|pylt.001|Take 001|Ba
+  - first:
+      74: 482256202806065839
+    second: stol.001|rog2|rog2|red_button|Take 001|BaseLayer|rog2|red_button|Take
+      00
+  - first:
+      74: 3080074165586079602
+    second: stol.001|rog2|rog2|rog1|Take 001|BaseLayer|rog2|rog1|Take 001|BaseLayer
+  - first:
+      74: 6746737567121182193
+    second: stol.001|rog2|rog2|rog2|Take 001|BaseLayer|rog2|rog2|Take 001|BaseLayer
+  - first:
+      74: -644143782940736994
+    second: stol.001|rog2|rog2|rog3|Take 001|BaseLayer|rog2|rog3|Take 001|BaseLayer
+  - first:
+      74: 6970047575911110710
+    second: stol.001|rog2|rog2|rog4|Take 001|BaseLayer|rog2|rog4|Take 001|BaseLayer
+  - first:
+      74: 4975019467453164923
+    second: stol.001|rog2|rog2|stol.001|Take 001|BaseLayer|rog2|stol.001|Take 001|Ba
+  - first:
+      74: -2262841621945598325
+    second: stol.001|rog2|rog2|telega_low|Take 001|BaseLayer|rog2|telega_low|Take
+      00
+  - first:
+      74: -1497717706875090268
+    second: stol.001|rog2|rog2|up|Take 001|BaseLayer|rog2|up|Take 001|BaseLayer
+  - first:
+      74: 8101106792876949538
+    second: stol.001|rog3|rog3|controll_rog1|Take 001|BaseLayer|rog3|controll_rog1|T
+  - first:
+      74: -8341554987322457516
+    second: stol.001|rog3|rog3|controll_rog2|Take 001|BaseLayer|rog3|controll_rog2|T
+  - first:
+      74: -7529831995148194894
+    second: stol.001|rog3|rog3|controll_rog3|Take 001|BaseLayer|rog3|controll_rog3|T
+  - first:
+      74: -624386678912547323
+    second: stol.001|rog3|rog3|controll_rog4|Take 001|BaseLayer|rog3|controll_rog4|T
+  - first:
+      74: 3112571018816038987
+    second: stol.001|rog3|rog3|dvig1|Take 001|BaseLayer|rog3|dvig1|Take 001|BaseLaye
+  - first:
+      74: 8051808188532408659
+    second: stol.001|rog3|rog3|dvig2|Take 001|BaseLayer|rog3|dvig2|Take 001|BaseLaye
+  - first:
+      74: 2786999727049138815
+    second: 'stol.001|rog3|rog3|grey_button|Take 001|BaseLayer|rog3|grey_button|Take '
+  - first:
+      74: 859165258333985920
+    second: stol.001|rog3|rog3|klych_nosadka|Take 001|BaseLayer|rog3|klych_nosadka|T
+  - first:
+      74: 6237078300831785056
+    second: stol.001|rog3|rog3|osnova|Take 001|BaseLayer|rog3|osnova|Take 001|BaseLa
+  - first:
+      74: 7387264341029055748
+    second: stol.001|rog3|rog3|pod_rog1|Take 001|BaseLayer|rog3|pod_rog1|Take 001|Ba
+  - first:
+      74: 7042308585950793583
+    second: stol.001|rog3|rog3|pod_rog2|Take 001|BaseLayer|rog3|pod_rog2|Take 001|Ba
+  - first:
+      74: -1636424127858491401
+    second: stol.001|rog3|rog3|pod_rog3|Take 001|BaseLayer|rog3|pod_rog3|Take 001|Ba
+  - first:
+      74: 2705408483356269581
+    second: stol.001|rog3|rog3|pod_rog4|Take 001|BaseLayer|rog3|pod_rog4|Take 001|Ba
+  - first:
+      74: 2330338063557050306
+    second: stol.001|rog3|rog3|podemniy_mex_controol1|Take 001|BaseLayer|rog3|podemn
+  - first:
+      74: 1569937832688295655
+    second: stol.001|rog3|rog3|podemniy_mex_controol2|Take 001|BaseLayer|rog3|podemn
+  - first:
+      74: 4801382938375726130
+    second: stol.001|rog3|rog3|podiemniy_mex1|Take 001|BaseLayer|rog3|podiemniy_mex1
+  - first:
+      74: -1440437024878839754
+    second: stol.001|rog3|rog3|podiemniy_mex2|Take 001|BaseLayer|rog3|podiemniy_mex2
+  - first:
+      74: -3208616447292568270
+    second: stol.001|rog3|rog3|pylt.001|Take 001|BaseLayer|rog3|pylt.001|Take 001|Ba
+  - first:
+      74: 789110645067762608
+    second: stol.001|rog3|rog3|red_button|Take 001|BaseLayer|rog3|red_button|Take
+      00
+  - first:
+      74: -2954491606642505473
+    second: stol.001|rog3|rog3|rog1|Take 001|BaseLayer|rog3|rog1|Take 001|BaseLayer
+  - first:
+      74: 103776218044484435
+    second: stol.001|rog3|rog3|rog2|Take 001|BaseLayer|rog3|rog2|Take 001|BaseLayer
+  - first:
+      74: 7194113078556351396
+    second: stol.001|rog3|rog3|rog3|Take 001|BaseLayer|rog3|rog3|Take 001|BaseLayer
+  - first:
+      74: 7142937571066686545
+    second: stol.001|rog3|rog3|rog4|Take 001|BaseLayer|rog3|rog4|Take 001|BaseLayer
+  - first:
+      74: 1993357222524047948
+    second: stol.001|rog3|rog3|stol.001|Take 001|BaseLayer|rog3|stol.001|Take 001|Ba
+  - first:
+      74: -1391464930547281139
+    second: stol.001|rog3|rog3|telega_low|Take 001|BaseLayer|rog3|telega_low|Take
+      00
+  - first:
+      74: 8393404057480836114
+    second: stol.001|rog3|rog3|up|Take 001|BaseLayer|rog3|up|Take 001|BaseLayer
+  - first:
+      74: -7994233587217684656
+    second: stol.001|rog4|rog4|controll_rog1|Take 001|BaseLayer|rog4|controll_rog1|T
+  - first:
+      74: 5568190233677355720
+    second: stol.001|rog4|rog4|controll_rog2|Take 001|BaseLayer|rog4|controll_rog2|T
+  - first:
+      74: -6363359990082850947
+    second: stol.001|rog4|rog4|controll_rog3|Take 001|BaseLayer|rog4|controll_rog3|T
+  - first:
+      74: -51104421535858685
+    second: stol.001|rog4|rog4|controll_rog4|Take 001|BaseLayer|rog4|controll_rog4|T
+  - first:
+      74: -375598200425004293
+    second: stol.001|rog4|rog4|dvig1|Take 001|BaseLayer|rog4|dvig1|Take 001|BaseLaye
+  - first:
+      74: -3885925131124958565
+    second: stol.001|rog4|rog4|dvig2|Take 001|BaseLayer|rog4|dvig2|Take 001|BaseLaye
+  - first:
+      74: 1840964233590547528
+    second: 'stol.001|rog4|rog4|grey_button|Take 001|BaseLayer|rog4|grey_button|Take '
+  - first:
+      74: 6477461589693441536
+    second: stol.001|rog4|rog4|klych_nosadka|Take 001|BaseLayer|rog4|klych_nosadka|T
+  - first:
+      74: 2942725980751599514
+    second: stol.001|rog4|rog4|osnova|Take 001|BaseLayer|rog4|osnova|Take 001|BaseLa
+  - first:
+      74: 5913842116543888642
+    second: stol.001|rog4|rog4|pod_rog1|Take 001|BaseLayer|rog4|pod_rog1|Take 001|Ba
+  - first:
+      74: -7599070900953688854
+    second: stol.001|rog4|rog4|pod_rog2|Take 001|BaseLayer|rog4|pod_rog2|Take 001|Ba
+  - first:
+      74: 4208901370530655883
+    second: stol.001|rog4|rog4|pod_rog3|Take 001|BaseLayer|rog4|pod_rog3|Take 001|Ba
+  - first:
+      74: -4932432227041843165
+    second: stol.001|rog4|rog4|pod_rog4|Take 001|BaseLayer|rog4|pod_rog4|Take 001|Ba
+  - first:
+      74: 7912161259664007009
+    second: stol.001|rog4|rog4|podemniy_mex_controol1|Take 001|BaseLayer|rog4|podemn
+  - first:
+      74: 5420393905578392588
+    second: stol.001|rog4|rog4|podemniy_mex_controol2|Take 001|BaseLayer|rog4|podemn
+  - first:
+      74: 1740305932249543420
+    second: stol.001|rog4|rog4|podiemniy_mex1|Take 001|BaseLayer|rog4|podiemniy_mex1
+  - first:
+      74: 598922533900302583
+    second: stol.001|rog4|rog4|podiemniy_mex2|Take 001|BaseLayer|rog4|podiemniy_mex2
+  - first:
+      74: 6984091231728402275
+    second: stol.001|rog4|rog4|pylt.001|Take 001|BaseLayer|rog4|pylt.001|Take 001|Ba
+  - first:
+      74: 536784675626080670
+    second: stol.001|rog4|rog4|red_button|Take 001|BaseLayer|rog4|red_button|Take
+      00
+  - first:
+      74: -3906046208519008545
+    second: stol.001|rog4|rog4|rog1|Take 001|BaseLayer|rog4|rog1|Take 001|BaseLayer
+  - first:
+      74: 373734657078549653
+    second: stol.001|rog4|rog4|rog2|Take 001|BaseLayer|rog4|rog2|Take 001|BaseLayer
+  - first:
+      74: -1955657817731280206
+    second: stol.001|rog4|rog4|rog3|Take 001|BaseLayer|rog4|rog3|Take 001|BaseLayer
+  - first:
+      74: -6196232010131054022
+    second: stol.001|rog4|rog4|rog4|Take 001|BaseLayer|rog4|rog4|Take 001|BaseLayer
+  - first:
+      74: -581315321777193294
+    second: stol.001|rog4|rog4|stol.001|Take 001|BaseLayer|rog4|stol.001|Take 001|Ba
+  - first:
+      74: -2655387693139780822
+    second: stol.001|rog4|rog4|telega_low|Take 001|BaseLayer|rog4|telega_low|Take
+      00
+  - first:
+      74: 4917373633127257579
+    second: stol.001|rog4|rog4|up|Take 001|BaseLayer|rog4|up|Take 001|BaseLayer
+  - first:
+      74: 9107585320690272478
+    second: stol.001|stol.001|stol.001|controll_rog1|Take 001|BaseLayer|stol.001|con
+  - first:
+      74: 7123668155234361190
+    second: stol.001|stol.001|stol.001|controll_rog2|Take 001|BaseLayer|stol.001|con
+  - first:
+      74: 4656922674153164659
+    second: stol.001|stol.001|stol.001|controll_rog3|Take 001|BaseLayer|stol.001|con
+  - first:
+      74: 9005716849435070224
+    second: stol.001|stol.001|stol.001|controll_rog4|Take 001|BaseLayer|stol.001|con
+  - first:
+      74: -791586106183402387
+    second: 'stol.001|stol.001|stol.001|dvig1|Take 001|BaseLayer|stol.001|dvig1|Take '
+  - first:
+      74: -3893831155276365383
+    second: 'stol.001|stol.001|stol.001|dvig2|Take 001|BaseLayer|stol.001|dvig2|Take '
+  - first:
+      74: -2632685292929435429
+    second: stol.001|stol.001|stol.001|grey_button|Take 001|BaseLayer|stol.001|grey_
+  - first:
+      74: -2550441435645772793
+    second: stol.001|stol.001|stol.001|klych_nosadka|Take 001|BaseLayer|stol.001|kly
+  - first:
+      74: -5938168372176889419
+    second: stol.001|stol.001|stol.001|osnova|Take 001|BaseLayer|stol.001|osnova|Tak
+  - first:
+      74: 1963365751360730926
+    second: stol.001|stol.001|stol.001|pod_rog1|Take 001|BaseLayer|stol.001|pod_rog1
+  - first:
+      74: -1281001369768621430
+    second: stol.001|stol.001|stol.001|pod_rog2|Take 001|BaseLayer|stol.001|pod_rog2
+  - first:
+      74: -4177117141312134518
+    second: stol.001|stol.001|stol.001|pod_rog3|Take 001|BaseLayer|stol.001|pod_rog3
+  - first:
+      74: 5282727291358700587
+    second: stol.001|stol.001|stol.001|pod_rog4|Take 001|BaseLayer|stol.001|pod_rog4
+  - first:
+      74: 8764973086873229633
+    second: stol.001|stol.001|stol.001|podemniy_mex_controol1|Take 001|BaseLayer|sto
+  - first:
+      74: 6942373167563564940
+    second: stol.001|stol.001|stol.001|podemniy_mex_controol2|Take 001|BaseLayer|sto
+  - first:
+      74: -6138369634089230289
+    second: stol.001|stol.001|stol.001|podiemniy_mex1|Take 001|BaseLayer|stol.001|po
+  - first:
+      74: -3988200436651052923
+    second: stol.001|stol.001|stol.001|podiemniy_mex2|Take 001|BaseLayer|stol.001|po
+  - first:
+      74: -4196926909264367586
+    second: stol.001|stol.001|stol.001|pylt.001|Take 001|BaseLayer|stol.001|pylt.001
+  - first:
+      74: -3695966281620162609
+    second: stol.001|stol.001|stol.001|red_button|Take 001|BaseLayer|stol.001|red_bu
+  - first:
+      74: -7244216784273539909
+    second: stol.001|stol.001|stol.001|rog1|Take 001|BaseLayer|stol.001|rog1|Take
+      00
+  - first:
+      74: 1700635645701442808
+    second: stol.001|stol.001|stol.001|rog2|Take 001|BaseLayer|stol.001|rog2|Take
+      00
+  - first:
+      74: -396054216061873953
+    second: stol.001|stol.001|stol.001|rog3|Take 001|BaseLayer|stol.001|rog3|Take
+      00
+  - first:
+      74: 3690931031677884577
+    second: stol.001|stol.001|stol.001|rog4|Take 001|BaseLayer|stol.001|rog4|Take
+      00
+  - first:
+      74: -3855977003543335199
+    second: stol.001|stol.001|stol.001|stol.001|Take 001|BaseLayer|stol.001|stol.001
+  - first:
+      74: 4401485546770451291
+    second: stol.001|stol.001|stol.001|telega_low|Take 001|BaseLayer|stol.001|telega
+  - first:
+      74: 7438746067824569679
+    second: stol.001|stol.001|stol.001|up|Take 001|BaseLayer|stol.001|up|Take 001|Ba
+  - first:
+      74: -5219784832899598367
+    second: stol.001|up|up|controll_rog1|Take 001|BaseLayer|up|controll_rog1|Take
+      00
+  - first:
+      74: -7453464828427164860
+    second: stol.001|up|up|controll_rog2|Take 001|BaseLayer|up|controll_rog2|Take
+      00
+  - first:
+      74: -1595103527332160312
+    second: stol.001|up|up|controll_rog3|Take 001|BaseLayer|up|controll_rog3|Take
+      00
+  - first:
+      74: 3922979940205636760
+    second: stol.001|up|up|controll_rog4|Take 001|BaseLayer|up|controll_rog4|Take
+      00
+  - first:
+      74: -5499924194032634162
+    second: stol.001|up|up|dvig1|Take 001|BaseLayer|up|dvig1|Take 001|BaseLayer
+  - first:
+      74: -5934277535699640952
+    second: stol.001|up|up|dvig2|Take 001|BaseLayer|up|dvig2|Take 001|BaseLayer
+  - first:
+      74: -9407198188274241
+    second: stol.001|up|up|grey_button|Take 001|BaseLayer|up|grey_button|Take 001|Ba
+  - first:
+      74: -6033747973037645604
+    second: stol.001|up|up|klych_nosadka|Take 001|BaseLayer|up|klych_nosadka|Take
+      00
+  - first:
+      74: 5065587107253653032
+    second: stol.001|up|up|osnova|Take 001|BaseLayer|up|osnova|Take 001|BaseLayer
+  - first:
+      74: 6304621550064094312
+    second: stol.001|up|up|pod_rog1|Take 001|BaseLayer|up|pod_rog1|Take 001|BaseLaye
+  - first:
+      74: 5105040310279745441
+    second: stol.001|up|up|pod_rog2|Take 001|BaseLayer|up|pod_rog2|Take 001|BaseLaye
+  - first:
+      74: 5508409809535043792
+    second: stol.001|up|up|pod_rog3|Take 001|BaseLayer|up|pod_rog3|Take 001|BaseLaye
+  - first:
+      74: -4402618792238648511
+    second: stol.001|up|up|pod_rog4|Take 001|BaseLayer|up|pod_rog4|Take 001|BaseLaye
+  - first:
+      74: 5686822589449014867
+    second: stol.001|up|up|podemniy_mex_controol1|Take 001|BaseLayer|up|podemniy_mex
+  - first:
+      74: -5314203041646530749
+    second: stol.001|up|up|podemniy_mex_controol2|Take 001|BaseLayer|up|podemniy_mex
+  - first:
+      74: 574272971787730146
+    second: 'stol.001|up|up|podiemniy_mex1|Take 001|BaseLayer|up|podiemniy_mex1|Take '
+  - first:
+      74: 8284647472125126797
+    second: 'stol.001|up|up|podiemniy_mex2|Take 001|BaseLayer|up|podiemniy_mex2|Take '
+  - first:
+      74: 4430105044023884537
+    second: stol.001|up|up|pylt.001|Take 001|BaseLayer|up|pylt.001|Take 001|BaseLaye
+  - first:
+      74: -3539091206494034695
+    second: stol.001|up|up|red_button|Take 001|BaseLayer|up|red_button|Take 001|Base
+  - first:
+      74: -5304111229195831708
+    second: stol.001|up|up|rog1|Take 001|BaseLayer|up|rog1|Take 001|BaseLayer
+  - first:
+      74: 6095029197538888370
+    second: stol.001|up|up|rog2|Take 001|BaseLayer|up|rog2|Take 001|BaseLayer
+  - first:
+      74: 6245172356287460564
+    second: stol.001|up|up|rog3|Take 001|BaseLayer|up|rog3|Take 001|BaseLayer
+  - first:
+      74: 2697745511359423090
+    second: stol.001|up|up|rog4|Take 001|BaseLayer|up|rog4|Take 001|BaseLayer
+  - first:
+      74: -197589174230341126
+    second: stol.001|up|up|stol.001|Take 001|BaseLayer|up|stol.001|Take 001|BaseLaye
+  - first:
+      74: -6900058320115442855
+    second: stol.001|up|up|telega_low|Take 001|BaseLayer|up|telega_low|Take 001|Base
+  - first:
+      74: 2058967148672168396
+    second: stol.001|up|up|up|Take 001|BaseLayer|up|up|Take 001|BaseLayer
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
