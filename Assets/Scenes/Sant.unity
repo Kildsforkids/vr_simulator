@@ -2603,19 +2603,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f0ef4571f418a44f91f6f1a58640a03, type: 3}
---- !u!114 &1401737460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3918842038754111421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b23e480c097e8194d9a5e19a20ccea1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 1612131559}
 --- !u!1 &1402977786
 GameObject:
   m_ObjectHideFlags: 0
@@ -3430,7 +3417,7 @@ MeshCollider:
   m_GameObject: {fileID: 1612131559}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 14
@@ -3477,6 +3464,20 @@ CapsuleCollider:
   m_Height: 0.004944047
   m_Direction: 1
   m_Center: {x: -0.00010900431, y: -0.0000820784, z: 0.0024159274}
+--- !u!136 &1612131589
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612131559}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.0023008138
+  m_Height: 0.004944047
+  m_Direction: 1
+  m_Center: {x: 0.00002740929, y: -0.0000820784, z: 0.0012134749}
 --- !u!1 &1623690988 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 107946, guid: dc06161b6d97feb419f45f03b62e14b9,
@@ -5237,6 +5238,8 @@ GameObject:
   - component: {fileID: 2325664048817963330}
   - component: {fileID: 1557898006}
   - component: {fileID: 1557897993}
+  - component: {fileID: 2743631610266196589}
+  - component: {fileID: 2743631610266196590}
   m_Layer: 0
   m_Name: Wheel
   m_TagString: Untagged
@@ -5244,6 +5247,33 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2743631610266196589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2743631610266196588}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9bca14f0bee44f8e9a5afaee8fbe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxDistance: 1.5
+  returnTime: 3
+--- !u!114 &2743631610266196590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2743631610266196588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23e480c097e8194d9a5e19a20ccea1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1612131559}
 --- !u!4 &3004685658282478149
 Transform:
   m_ObjectHideFlags: 0
@@ -5446,7 +5476,6 @@ GameObject:
   - component: {fileID: 7606783146013861944}
   - component: {fileID: 8955297419846399780}
   - component: {fileID: 1844080719106491500}
-  - component: {fileID: 1401737460}
   m_Layer: 0
   m_Name: QuestCollider
   m_TagString: Untagged
