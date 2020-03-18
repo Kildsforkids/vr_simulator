@@ -5,37 +5,36 @@ public class WheelPos : MonoBehaviour
 {
     [SerializeField]
     private GameObject obj;
-    private Quaternion startRotation = Quaternion.identity; 
+    [SerializeField]
+    private GameObject wheel;
 
     private void OnTriggerEnter(Collider obj)
     {
-        Debug.Log($"{this.obj.name} = {obj.name}");
         if (this.obj.name == obj.name)
         {
             GetComponent<ThrowableExtend>().currentHand.DetachObject(gameObject);
             GetComponent<Interactable>().enabled = false;
-            transform.rotation = startRotation;
-            transform.position = new Vector3(transform.position.x, 0.425f, -0.465f);
+            transform.rotation = Quaternion.Euler(-18, -180, 90);
+            transform.position = new Vector3(transform.position.x, obj.transform.position.y - 0.4f, obj.transform.position.z);
             GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation |
                 RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ;
             GetComponent<Rigidbody>().isKinematic = false;
+            wheel.GetComponent<MeshCollider>().enabled = false;
         }
     }
 
-    void OnTriggerStay(Collider obj)
+    private void OnTriggerStay(Collider obj)
     {
-        if (this.obj.name == obj.name)
-        {
-        }
+        transform.rotation = Quaternion.Euler(-18, -180, 90);
+        transform.position = new Vector3(transform.position.x, obj.transform.position.y - 0.4f, obj.transform.position.z);
     }
 
     void OnTriggerExit(Collider obj)
     {
         if (this.obj.name == obj.name)
         {
-            GetComponent<Rigidbody>().isKinematic = true;
-            GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation |
-                RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ;
+            GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+            wheel.GetComponent<MeshCollider>().enabled = true;
         }
     }
 }
