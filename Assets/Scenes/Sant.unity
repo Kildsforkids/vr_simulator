@@ -615,6 +615,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: worckshop
       objectReference: {fileID: 0}
+    - target: {fileID: 5638152543761665104, guid: f9da52b0910ff5044b386ef03e7afe61,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5638152543761665111, guid: f9da52b0910ff5044b386ef03e7afe61,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5638152543761665111, guid: f9da52b0910ff5044b386ef03e7afe61,
+        type: 3}
+      propertyPath: upLimit
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 6096701918913536578, guid: f9da52b0910ff5044b386ef03e7afe61,
         type: 3}
       propertyPath: inputModule
@@ -627,3 +642,70 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: c94260d2d2f98f24d817d0ef1fb674e8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9da52b0910ff5044b386ef03e7afe61, type: 3}
+--- !u!1 &5638152542960920077 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6530660617685451204, guid: f9da52b0910ff5044b386ef03e7afe61,
+    type: 3}
+  m_PrefabInstance: {fileID: 5638152542960920076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5638152542960920078 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2058802497270313732, guid: f9da52b0910ff5044b386ef03e7afe61,
+    type: 3}
+  m_PrefabInstance: {fileID: 5638152542960920076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!145 &5638152542960920079
+SpringJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5638152542960920077}
+  m_ConnectedBody: {fileID: 5638152542960920081}
+  m_Anchor: {x: 0, y: 0.019999994, z: 0}
+  m_AutoConfigureConnectedAnchor: 1
+  m_ConnectedAnchor: {x: -0.102491714, y: -0.00000020623179, z: 0.052800898}
+  serializedVersion: 2
+  m_Spring: 100
+  m_Damper: 10
+  m_MinDistance: 0
+  m_MaxDistance: 0
+  m_Tolerance: 1.00000005e-20
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
+--- !u!54 &5638152542960920080
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5638152542960920077}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 124
+  m_CollisionDetection: 0
+--- !u!54 &5638152542960920081
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5638152542960920078}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

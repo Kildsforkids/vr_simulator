@@ -5,51 +5,36 @@ using UnityEngine;
 public class LiftButton : MonoBehaviour
 {
     [SerializeField]
+    private float upLimit;
+    [SerializeField]
     private List<Transform> liftingObjects;
 
-    private bool isLifting = false;
-
-    private void Update()
+    private void OnCollisionEnter(Collision collision)
     {
-        if (isLifting)
-            StartCoroutine(DoLiftingCoroutine());
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        ButtonIn();
         DoLifting();
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnCollisionExit(Collision collision)
     {
-        ButtonOut();
-    }
-
-    private void ButtonIn()
-    {
-
-    }
-
-    private void ButtonOut()
-    {
-
+        CancelLifting();
     }
 
     private void DoLifting()
     {
-        if (!isLifting)
-        {
-            isLifting = true;
-        }
+        StartCoroutine(DoLiftingCoroutine());
+    }
+
+    private void CancelLifting()
+    {
+        StopCoroutine(DoLiftingCoroutine());
     }
 
     private IEnumerator DoLiftingCoroutine()
     {
-        foreach (var obj in liftingObjects)
+        foreach(var obj in liftingObjects)
         {
-            if (obj.position.y < 0.3f)
-                obj.position += Vector3.up * 0.01f;
+            if (obj.position.y >= upLimit) break;
+            obj.position += Vector3.up * 0.01f;
         }
         yield return new WaitForSeconds(2);
     }
