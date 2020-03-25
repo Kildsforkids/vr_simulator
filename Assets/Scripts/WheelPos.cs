@@ -27,7 +27,7 @@ public class WheelPos : MonoBehaviour
     {
         if (this.obj.name == obj.name)
         {
-            GetComponent<ThrowableExtend>().currentHand.DetachObject(gameObject);
+            GetComponent<ThrowableExtend>()?.currentHand?.DetachObject(gameObject);
             //GetComponent<Interactable>().enabled = false;
             //transform.rotation = Quaternion.Euler(-18, -180, 90);
             transform.rotation = defaultAngle;
