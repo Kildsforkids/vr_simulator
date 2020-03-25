@@ -8,19 +8,21 @@ namespace QuestSystem {
         // Fields
         [SerializeField]
         public QuestTriggerController subjectTrigger, objectTrigger;
+
         [SerializeField]
         private Vector3 attachPosision, attachRotation;
+
         [Header("Для дебага")]
         [SerializeField]
         private bool notInUse;
-
+        #region
         //public struct Trigger
         //{
         //    public QuestTriggerController subjectTrigger, objectTrigger;
         //    public Vector3 attachPosition, attachRotation;
         //}
         //public List<Trigger> triggers;
-
+        #endregion
         // Methods
         private void Awake() {
             if (!notInUse)
@@ -32,6 +34,7 @@ namespace QuestSystem {
                     enabled = false; return;
                 }
                 subjectTrigger.quest = this;
+                #region
                 //foreach (var trigger in triggers)
                 //{
                 //    if (trigger.subjectTrigger == null)
@@ -42,12 +45,14 @@ namespace QuestSystem {
                 //    trigger.subjectTrigger.quest = this;
                 //}
                 // objectTrigger
+                #endregion
                 if (objectTrigger == null)
                 {
                     Debug.LogError($"{GetType().Name} in {gameObject.name} need an objectTrigger.");
                     enabled = false; return;
                 }
                 objectTrigger.quest = this;
+                #region
                 //foreach (var trigger in triggers)
                 //{
                 //    if (trigger.objectTrigger == null)
@@ -57,6 +62,7 @@ namespace QuestSystem {
                 //    }
                 //    trigger.objectTrigger.quest = this;
                 //}
+                #endregion
             }
         }
 
@@ -87,6 +93,7 @@ namespace QuestSystem {
             if (subjectCollider != subjectTrigger.collider || objectCollider != objectTrigger.collider) return;
             Action();
             End();
+            #region
             //foreach (var trigger in triggers)
             //{
             //    if (subjectCollider == trigger.subjectTrigger.collider && objectCollider == trigger.objectTrigger.collider)
@@ -97,6 +104,7 @@ namespace QuestSystem {
             //    }
             //}
             //return;
+            #endregion
         }
     }
 }

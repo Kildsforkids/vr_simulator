@@ -10,19 +10,24 @@ namespace QuestSystem {
         public string description;
 
         public Text Title { get; set; }
+
         // Methods
+
         /// <summary>
         /// The action that must be called to complete the quest.
         /// </summary>
         abstract public void Action();
+
         /// <summary>
         /// Finishes the quest and removes it from the quest list.
         /// </summary>
         abstract public void End();
+
         /// <summary>
         /// List of triggers associated with this quest.
         /// </summary>
         abstract public List<QuestTriggerController> GetRelatedTriggers();
+
         /// <summary>
         /// Function called when any trigger associated with this quest is triggered.
         /// </summary>
