@@ -1150,7 +1150,7 @@ Transform:
   - {fileID: 1936112326}
   - {fileID: 407240764}
   m_Father: {fileID: 5006512736340384639}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &283125664
 GameObject:
@@ -1271,7 +1271,7 @@ Transform:
   - {fileID: 2006653416}
   - {fileID: 1148779221}
   m_Father: {fileID: 5006512736340384639}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &297001751 stripped
 GameObject:
@@ -1422,7 +1422,7 @@ Transform:
   - {fileID: 1499828265}
   - {fileID: 4266593417870891961}
   m_Father: {fileID: 5006512736340384639}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &574499083
 PrefabInstance:
@@ -1865,6 +1865,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 634743528}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1036918180 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 107946, guid: dc06161b6d97feb419f45f03b62e14b9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1095607181}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1036918181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036918180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eab609204db093640af8dce9998556b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  input:
+    actionPath: /actions/default/in/Touchpad
+    needsReinit: 0
+  speed: 1
 --- !u!1001 &1083118449
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1943,7 +1965,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.07
+      value: -0.07
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4369,6 +4391,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
+--- !u!1 &1818885598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1818885599}
+  m_Layer: 0
+  m_Name: TargetPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1818885599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818885598}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -1.016962, y: 0.598, z: 0.368515}
+  m_LocalScale: {x: 0.8, y: 0.8000001, z: 0.8000001}
+  m_Children: []
+  m_Father: {fileID: 5006512736340384639}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1865295373
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6178,7 +6230,7 @@ Transform:
   - {fileID: 4162827008488413643}
   - {fileID: 2183703018059163625}
   m_Father: {fileID: 5006512736340384639}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!4 &2001408710857153878
 Transform:
@@ -7532,10 +7584,32 @@ MonoBehaviour:
   disengageAtPercent: 0.9
   onButtonDown:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5304504236289542025}
+        m_MethodName: DoDescent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onButtonUp:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5304504236289542025}
+        m_MethodName: CancelDescent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onButtonIsPressed:
     m_PersistentCalls:
       m_Calls: []
@@ -8779,7 +8853,7 @@ Transform:
   - {fileID: 6881261861575801602}
   - {fileID: 6882878959917737739}
   m_Father: {fileID: 5006512736340384639}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &4443849323628693797
 MeshFilter:
@@ -9106,7 +9180,7 @@ Transform:
   - {fileID: 2336698449508337336}
   - {fileID: 2859228472536141364}
   m_Father: {fileID: 5006512736340384639}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: -18, y: -180, z: 90}
 --- !u!23 &4795013222860973015
 MeshRenderer:
@@ -9269,6 +9343,7 @@ Transform:
   - {fileID: 4238669196751934577}
   - {fileID: 2180051760194606533}
   - {fileID: 6377661955369008089}
+  - {fileID: 1818885599}
   - {fileID: 6458108965115853136}
   - {fileID: 9181655717717834879}
   - {fileID: 487171474}
@@ -9705,6 +9780,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6458108965115853136}
+  - component: {fileID: 5304504236289542025}
   m_Layer: 0
   m_Name: CarLift
   m_TagString: Untagged
@@ -9712,6 +9788,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5304504236289542025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5304504236289542024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b71c921f3d2bb214e9a84f22185ba2d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  liftingObject: {fileID: 2001408709688109386}
+  movingParts:
+  - {fileID: 2102548880034932466}
+  - {fileID: 476525508536065102}
+  targetPointOnRise: {fileID: 1818885599}
+  smoothing: 0.3
 --- !u!33 &5321469543510606457
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11376,7 +11470,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5006512736340384639}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5638152543887745979
 GameObject:
@@ -12533,10 +12627,32 @@ MonoBehaviour:
   disengageAtPercent: 0.9
   onButtonDown:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5304504236289542025}
+        m_MethodName: DoLifting
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onButtonUp:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5304504236289542025}
+        m_MethodName: CancelLifting
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onButtonIsPressed:
     m_PersistentCalls:
       m_Calls: []
@@ -12878,7 +12994,7 @@ Transform:
   - {fileID: 1622047147965807951}
   - {fileID: 1965810840519778375}
   m_Father: {fileID: 5006512736340384639}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!23 &6475736238112324379
 MeshRenderer:
@@ -15342,5 +15458,5 @@ Transform:
   m_LocalScale: {x: 0.073725, y: 0.073725, z: 0.073725}
   m_Children: []
   m_Father: {fileID: 5006512736340384639}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: -12.469001, z: 0}
