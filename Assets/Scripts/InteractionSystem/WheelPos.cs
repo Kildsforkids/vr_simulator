@@ -46,6 +46,8 @@ public class WheelPos : MonoBehaviour
         {
             transform.rotation = defaultAngle;
             transform.position = new Vector3(transform.position.x, obj.transform.position.y, obj.transform.position.z);
+            GetComponent<Interactable>().enabled = false;
+            this.enabled = false;
         }
     }
 
