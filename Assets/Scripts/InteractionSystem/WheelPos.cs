@@ -1,8 +1,12 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using Valve.VR.InteractionSystem;
+using QuestSystem;
 
-public class WheelPos : MonoBehaviour
+public class WheelPos : MonoBehaviour, IQuestObject
 {
+    public Action AttachEvent { get; set; }
+
     [SerializeField]
     private GameObject obj;
     [SerializeField]
@@ -37,6 +41,7 @@ public class WheelPos : MonoBehaviour
             GetComponent<Rigidbody>().isKinematic = false;
             GetComponent<Rigidbody>().drag = drag;
             wheel.GetComponent<MeshCollider>().enabled = false;
+            AttachEvent();
         }
     }
 

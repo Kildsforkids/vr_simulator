@@ -1,49 +1,34 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 
-namespace QuestSystem {
+namespace QuestSystem
+{
     [System.Serializable]
-    abstract public class Quest : MonoBehaviour {
+    public class Quest
+    {
         [SerializeField]
-        public string description;
+        private bool _isActive;
+        [SerializeField]
+        private string _title;
+        [SerializeField]
+        private string _description;
+        [SerializeField]
+        private QuestGoal _goal;
+        [SerializeField]
+        private GameObject _questObject;
+        [SerializeField]
+        private QuestGiver _questGiver;
 
-        public Text Title { get; set; }
+        public bool IsActive { get { return _isActive; } set { _isActive = value; } }
+        public string Title => _title;
+        public string Description => _description;
+        public QuestGoal Goal => _goal;
+        public GameObject QuestObect => _questObject;
 
-        // Methods
-
-        /// <summary>
-        /// The action that must be called to complete the quest.
-        /// </summary>
-        abstract public void Action();
-
-        /// <summary>
-        /// Finishes the quest and removes it from the quest list.
-        /// </summary>
-        abstract public void End();
-
-        /// <summary>
-        /// List of triggers associated with this quest.
-        /// </summary>
-        abstract public List<QuestTriggerController> GetRelatedTriggers();
-
-        /// <summary>
-        /// Function called when any trigger associated with this quest is triggered.
-        /// </summary>
-        /// <param name="subjectCollider">Сollider of the object that performs the action</param>
-        /// <param name="objectCollider">Collider of the object being acted upon</param>
-        abstract public void OnQuestTriggerEnter(Collider subjectCollider, Collider objectCollider);
+        public void Complete()
+        {
+            _isActive = false;
+            Debug.Log($"Вы выполнили задание \"{_title}\"!");
+            _questGiver.UpdateQuestWindow(true);
+        }
     }
 }
-
-/*
-static class QuestActionExtension {
-    public static void Invoke(this Quest.ActionType action, in Quest quest) {
-        if (action == Quest.ActionType.Attach) quest.action = Attach;
-    }
-    public static void Attach(in Quest quest) {
-        quest.objectTrigger.gameObject.transform.position = quest.subjectTrigger.gameObject.transform.position;
-        quest.subjectTrigger.GetComponent<Rigidbody>().isKinematic = true;
-    }
-}*/
