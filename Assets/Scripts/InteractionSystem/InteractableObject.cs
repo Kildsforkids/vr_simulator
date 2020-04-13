@@ -1,13 +1,12 @@
 ﻿using UnityEngine;
 
-abstract public class InteractableObject : MonoBehaviour
+public abstract class InteractableObject : MonoBehaviour
 {
 
     [SerializeField]
     private ObjectType _objectType;
 
-    public ObjectType ObjectType => _objectType;
+    public ObjectType ObjectType { get { return _objectType; } set { _objectType = value; } }
 }
 
 public enum ObjectType { Wheel, Nut, Wrench };
-

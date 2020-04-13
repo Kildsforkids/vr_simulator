@@ -1,13 +1,12 @@
 ﻿using UnityEngine;
 using Valve.VR.InteractionSystem;
 
-public class KeyWrench : InteractableObject
+public class KeyWrench : Attachable
 {
     public bool IsAttached { get; set; }
 
     private Rigidbody rb;
     private CircularDrive circularDrive;
-    private ThrowableExtend throwableExtend;
 
     private void Start()
     {
@@ -15,6 +14,7 @@ public class KeyWrench : InteractableObject
         circularDrive = GetComponent<CircularDrive>();
         throwableExtend = GetComponent<ThrowableExtend>();
         IsAttached = false;
+        ObjectType = ObjectType.Wrench;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -32,7 +32,7 @@ public class KeyWrench : InteractableObject
         }
     }
 
-    protected void AttachTo(Transform target)
+    protected override void AttachTo(Transform target)
     {
         throwableExtend.currentHand.DetachObject(gameObject);
         transform.position = target.position;
@@ -42,5 +42,6 @@ public class KeyWrench : InteractableObject
         Destroy(GetComponent<VelocityEstimator>());
         circularDrive.enabled = true;
         IsAttached = true;
+        AttachEvent();
     }
 }

@@ -1,9 +1,8 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using Valve.VR.InteractionSystem;
-using QuestSystem;
+using System;
 
-public class WheelPos : MonoBehaviour, IQuestObject
+public class WheelPos : MonoBehaviour
 {
     public Action AttachEvent { get; set; }
 

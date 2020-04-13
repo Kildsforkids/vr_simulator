@@ -1,8 +1,11 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
-abstract public class Attachable : InteractableObject
+public abstract class Attachable : InteractableObject
 {
-    private ThrowableExtend throwableExtend;
+    public Action AttachEvent;
+
+    protected ThrowableExtend throwableExtend;
 
     private void Start()
     {
@@ -26,5 +29,6 @@ abstract public class Attachable : InteractableObject
         throwableExtend.currentHand.DetachObject(gameObject);
         transform.position = target.position;
         transform.rotation = target.localRotation;
+        AttachEvent();
     }
 }
