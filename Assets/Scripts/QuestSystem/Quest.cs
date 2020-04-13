@@ -22,7 +22,7 @@ namespace QuestSystem
         public string Title => _title;
         public string Description => _description;
         public QuestGoal Goal => _goal;
-        public GameObject QuestObect => _questObject;
+        public GameObject QuestObject => _questObject;
 
         public void Complete()
         {

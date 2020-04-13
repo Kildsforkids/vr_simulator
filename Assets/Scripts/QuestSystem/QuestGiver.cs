@@ -14,10 +14,14 @@ namespace QuestSystem
         [SerializeField]
         private Text _descriptionText;
 
+        private void Awake()
+        {
+            AcceptQuest();
+        }
+
         private void Start()
         {
             UpdateQuestWindow();
-            AcceptQuest();
         }
 
         public void UpdateQuestWindow(bool setQuestTitleColor = false)

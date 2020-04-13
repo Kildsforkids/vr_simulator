@@ -11,7 +11,7 @@ namespace QuestSystem
 
         private void Start()
         {
-            _quest.QuestObect.GetComponent<IQuestObject>().AttachEvent += OnAttachEvent;
+            _quest.QuestObject.GetComponent<Attachable>().AttachEvent += OnAttachEvent;
         }
 
         private void OnAttachEvent()
