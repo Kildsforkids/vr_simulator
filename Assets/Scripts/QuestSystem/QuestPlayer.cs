@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using vr_simulator.InteractionSystem;
 
 namespace QuestSystem
 {
@@ -11,7 +12,8 @@ namespace QuestSystem
 
         private void Start()
         {
-            _quest.QuestObject.GetComponent<Attachable>().AttachEvent += OnAttachEvent;
+            Debug.LogError(_quest.QuestObject.GetComponent<InteractableObject>() == null);
+            _quest.QuestObject.GetComponent<InteractableObject>().AttachBehaviour.AttachEvent += OnAttachEvent;
         }
 
         private void OnAttachEvent()
