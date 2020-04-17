@@ -791,6 +791,59 @@ Camera:
     type: 3}
   m_PrefabInstance: {fileID: 1095607181}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &17373051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 17373052}
+  - component: {fileID: 17373053}
+  m_Layer: 0
+  m_Name: WheelQuests
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &17373052
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17373051}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 477451276}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &17373053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17373051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90168f1d74a753d4ab82ad81f2c75ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isActive: 0
+  _title: 
+  _description: 
+  _goal:
+    _goalType: 0
+    _requiredAmount: 0
+    _currentAmount: 0
+  _questObject: {fileID: 0}
+  _questGiver: {fileID: 0}
+  trigger: {fileID: 5638152543595372605}
 --- !u!64 &40262328
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1410,6 +1463,59 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1321624979}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &356689900
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 356689901}
+  - component: {fileID: 356689902}
+  m_Layer: 0
+  m_Name: WrenchQuests
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &356689901
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356689900}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 477451276}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &356689902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356689900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90168f1d74a753d4ab82ad81f2c75ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isActive: 0
+  _title: 
+  _description: 
+  _goal:
+    _goalType: 0
+    _requiredAmount: 0
+    _currentAmount: 0
+  _questObject: {fileID: 0}
+  _questGiver: {fileID: 0}
+  trigger: {fileID: 1208132844}
 --- !u!1 &366319096 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1608340256852617809, guid: 7c6ca12b52834564ab1e6654890fe14c,
@@ -1786,6 +1892,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcbf4c74727494e4d8d35e9d69d24a1c, type: 3}
+--- !u!1 &477451275
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 477451276}
+  m_Layer: 0
+  m_Name: Quests
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &477451276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477451275}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 17373052}
+  - {fileID: 356689901}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &487171473
 GameObject:
   m_ObjectHideFlags: 0
@@ -2659,21 +2797,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1036918180}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5ccacc705733b7a49836212148af6229, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _quest:
-    _isActive: 0
-    _title: 
-    _description: 
-    _goal:
-      _goalType: 0
-      _requiredAmount: 0
-      _currentAmount: 0
-    _questObject: {fileID: 0}
-    _questGiver: {fileID: 0}
+  _quest: {fileID: 0}
 --- !u!1 &1053284834
 GameObject:
   m_ObjectHideFlags: 0
@@ -2898,13 +3027,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1123486787}
   - component: {fileID: 1123486789}
-  - component: {fileID: 1123486788}
   - component: {fileID: 1123486790}
   - component: {fileID: 1123486793}
   - component: {fileID: 1123486791}
   - component: {fileID: 1123486792}
   - component: {fileID: 1123486795}
-  - component: {fileID: 1123486794}
   m_Layer: 8
   m_Name: KeyWrench
   m_TagString: Untagged
@@ -2927,44 +3054,6 @@ Transform:
   m_Father: {fileID: 5006512736340384639}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1123486788
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1123486786}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f32883eed859804dbb0c5fedac91496, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  axisOfRotation: 0
-  childCollider: {fileID: 5157353132415929553}
-  linearMapping: {fileID: 1123486794}
-  hoverLock: 0
-  limited: 0
-  frozenDistanceMinMaxThreshold: {x: 0.1, y: 0.2}
-  onFrozenDistanceThreshold:
-    m_PersistentCalls:
-      m_Calls: []
-  minAngle: -45
-  freezeOnMin: 0
-  onMinAngle:
-    m_PersistentCalls:
-      m_Calls: []
-  maxAngle: 45
-  freezeOnMax: 0
-  onMaxAngle:
-    m_PersistentCalls:
-      m_Calls: []
-  forceStart: 0
-  startAngle: 0
-  rotateGameObject: 1
-  debugPath: 0
-  dbgPathLimit: 50
-  debugText: {fileID: 0}
-  outAngle: 0
 --- !u!114 &1123486789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3060,6 +3149,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b5a8c1faa0704b40ac4a852724d769d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _objectType: 3
+  relatedObservers:
+  - {fileID: 356689900}
 --- !u!114 &1123486793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3114,19 +3206,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   interactable: {fileID: 0}
---- !u!114 &1123486794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1123486786}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46f8e9e70f68ee3418ad85992778c116, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 0
 --- !u!135 &1123486795
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3463,7 +3542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58c91ce5b014b2e43b43d7c6709326cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _objectType: 2
+  _objectType: 3
 --- !u!135 &1208132846
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6836,7 +6915,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2146265693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6849,16 +6928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 949669260a5c025408e49515fca11b6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _quest:
-    _isActive: 0
-    _title: "\u041F\u043E\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u043A\u043E\u043B\u0435\u0441\u043E"
-    _description: 
-    _goal:
-      _goalType: 0
-      _requiredAmount: 1
-      _currentAmount: 0
-    _questObject: {fileID: 7506915313780636768}
-    _questGiver: {fileID: 2146265693}
+  _quest: {fileID: 0}
   _player: {fileID: 1036918182}
   _titleText: {fileID: 146608558}
   _descriptionText: {fileID: 0}
@@ -15520,6 +15590,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _objectType: 1
+  relatedObservers:
+  - {fileID: 17373051}
 --- !u!4 &7512444532121625769
 Transform:
   m_ObjectHideFlags: 0

@@ -8,4 +8,4 @@ public abstract class TypableObject : MonoBehaviour
     public ObjectType ObjectType { get { return _objectType; } set { _objectType = value; } }
 }
 
-public enum ObjectType { None, Wheel, Wrench }
+public enum ObjectType { None, Wheel, Nut, Wrench }

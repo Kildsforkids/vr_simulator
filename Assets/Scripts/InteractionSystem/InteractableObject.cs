@@ -1,40 +1,112 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections.Generic;
+using UnityEngine;
+using Valve.VR.InteractionSystem;
 using vr_simulator.InteractionSystem.Attach;
 
 namespace vr_simulator.InteractionSystem
 {
-    public abstract class InteractableObject : MonoBehaviour
+    public abstract class InteractableObject : TypableObject, IInteractableObject, IObservable
     {
+        //protected IAttachable attachBehaviour;
+
         [SerializeField]
-        private ObjectType _objectType;
+        private List<GameObject> relatedObservers;
 
-        public ObjectType ObjectType { get { return _objectType; } set { _objectType = value; } }
+        private List<IObserver> observers = new List<IObserver>();
 
-        protected IAttachable attachBehaviour;
+        public Attachable Attachable { get; set; }
 
-        private void Start()
+        //private void Start()
+        //{
+        //    ObjectType = ObjectType.None;
+        //    attachBehaviour = new Attachment();
+        //}
+
+        protected virtual void Start()
         {
-            ObjectType = ObjectType.None;
-            attachBehaviour = new Attachment();
+            Attachable = new Attachment();
+            UpdateObserversList();
         }
 
-        private void OnTriggerEnter(Collider other)
+        protected virtual void OnTriggerEnter(Collider other)
         {
-            var triggerController = other.GetComponent<TriggerController>();
-            Debug.LogError($"triggerController of {other.name} is null - {triggerController == null}");
-            if (triggerController != null)
+            var otherTypableObject = other.GetComponent<TypableObject>();
+            if (otherTypableObject != null)
             {
-                if (triggerController.ObjectType == ObjectType)
+                if (otherTypableObject.ObjectType == ObjectType)
                 {
-                    AttachTo(triggerController.transform);
+                    AttachTo(Attachable, other.transform);
+                    NotifyObservers();
                 }
             }
         }
 
-        public IAttachable AttachBehaviour => attachBehaviour;
+        public void UpdateObserversList()
+        {
+            foreach (var observer in relatedObservers)
+            {
+                try
+                {
+                    var observerComponents = observer.GetComponents<IObserver>();
+                    foreach (var component in observerComponents)
+                    {
+                        AddObserver(component);
+                    }
+                }
+                catch (NullReferenceException e)
+                {
+                    Debug.LogError($"Can't update observers' list with {observer.name} Error - [{e}]");
+                }
+            }
+        }
 
-        public virtual void AttachTo(Transform target) => attachBehaviour.AttachTo(target);
+        public void DestroyInteraction()
+        {
+            Destroy(GetComponent<ThrowableExtend>());
+            Destroy(GetComponent<Interactable>());
+            Destroy(GetComponent<VelocityEstimator>());
+        }
+
+        //private void OnTriggerEnter(Collider other)
+        //{
+        //    var triggerController = other.GetComponent<TriggerController>();
+        //    Debug.LogError($"triggerController of {other.name} is null - {triggerController == null}");
+        //    if (triggerController != null)
+        //    {
+        //        if (triggerController.ObjectType == ObjectType)
+        //        {
+        //            AttachTo(triggerController.transform);
+        //        }
+        //    }
+        //}
+
+        //public IAttachable AttachBehaviour => attachBehaviour;
+
+
+        //public virtual void AttachTo(Transform target) => attachBehaviour.AttachTo(target);
+
+        public void AttachTo(IAttachable attachable, Transform target)
+        {
+            attachable.AttachTo(this, target);
+        }
+
+        public void AddObserver(IObserver o)
+        {
+            observers.Add(o);
+        }
+
+        public void NotifyObservers()
+        {
+            foreach (var observer in observers)
+            {
+                observer.DoUpdate(this);
+            }
+        }
+
+        public void RemoveObserver(IObserver o)
+        {
+            observers.Remove(o);
+        }
     }
-
-    public enum ObjectType { None, Wheel, Nut, Wrench };
 }

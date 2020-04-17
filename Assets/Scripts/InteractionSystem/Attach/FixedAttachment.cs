@@ -1,25 +1,12 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace vr_simulator.InteractionSystem.Attach
 {
-    public class FixedAttachment : MonoBehaviour, IAttachable
+    public class FixedAttachment : Attachable
     {
-        public Action AttachEvent { get; set; }
-
-        private ThrowableExtend throwableExtend;
-
-        private void Start()
+        public override void AttachTo(InteractableObject interactableObject, Transform target)
         {
-            throwableExtend = GetComponent<ThrowableExtend>();
-        }
-
-        public void AttachTo(Transform target)
-        {
-            throwableExtend.currentHand.DetachObject(gameObject);
-            transform.position = target.position;
-            transform.rotation = target.localRotation;
-            AttachEvent();
+            Debug.Log($"FixedAttachment on {interactableObject.name}");
         }
     }
 }

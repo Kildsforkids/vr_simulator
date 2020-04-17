@@ -4,21 +4,6 @@ namespace vr_simulator.InteractionSystem
 {
     public class Wheel : InteractableObject
     {
-        private void Start()
-        {
-            ObjectType = ObjectType.Wheel;
-            attachBehaviour = new FixedAttachment();
-        }
-
-        //protected override void AttachTo(Transform target)
-        //{
-        //    throwableExtend?.currentHand?.DetachObject(gameObject);
-        //    transform.position = target.position;
-        //    transform.rotation = target.rotation;
-        //    rb.isKinematic = true;
-        //    GetComponent<Interactable>().enabled = false;
-        //    AttachEvent();
-        //}
     }
 }
 
