@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-namespace QuestSystem
+namespace vr_simulator.QuestSystem
 {
     public class QuestGiver : MonoBehaviour
     {

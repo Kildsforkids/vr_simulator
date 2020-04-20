@@ -1,6 +1,7 @@
-﻿using UnityEngine;
-
-public class TriggerController : InteractableObject
+﻿namespace vr_simulator.InteractionSystem
 {
-    
+    public class TriggerController : TypableObject
+    {
+
+    }
 }

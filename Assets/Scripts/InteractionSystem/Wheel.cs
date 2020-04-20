@@ -1,25 +1,32 @@
-﻿using UnityEngine;
-using Valve.VR.InteractionSystem;
+﻿using vr_simulator.InteractionSystem.Attach;
 
-public class Wheel : Attachable
+namespace vr_simulator.InteractionSystem
 {
-    private Rigidbody rb;
-
-    private void Start()
+    public class Wheel : InteractableObject
     {
-        rb = GetComponent<Rigidbody>();
-        ObjectType = ObjectType.Wheel;
     }
+}
 
-    protected override void AttachTo(Transform target)
-    {
-        throwableExtend?.currentHand?.DetachObject(gameObject);
-        transform.position = target.position;
-        transform.rotation = target.rotation;
-        rb.isKinematic = true;
-        GetComponent<Interactable>().enabled = false;
-        AttachEvent();
-    }
+//public class Wheel : InteractableObject
+//{
+//    private Rigidbody rb;
+//    private IAttachable
+
+//    private void Start()
+//    {
+//        rb = GetComponent<Rigidbody>();
+//        ObjectType = ObjectType.Wheel;
+//    }
+
+//    protected override void AttachTo(Transform target)
+//    {
+//        throwableExtend?.currentHand?.DetachObject(gameObject);
+//        transform.position = target.position;
+//        transform.rotation = target.rotation;
+//        rb.isKinematic = true;
+//        GetComponent<Interactable>().enabled = false;
+//        AttachEvent();
+//    }
 
     //private void OnTriggerEnter(Collider obj)
     //{
@@ -59,4 +66,4 @@ public class Wheel : Attachable
     //        GetComponent<Rigidbody>().drag = defaultDrag;
     //    }
     //}
-}
+//}

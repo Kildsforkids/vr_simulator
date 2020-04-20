@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace QuestSystem
+namespace vr_simulator.QuestSystem
 {
     [System.Serializable]
     public class QuestGoal

@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 
-namespace QuestSystem
+namespace vr_simulator.QuestSystem
 {
     [System.Serializable]
-    public class Quest
+    public abstract class Quest : MonoBehaviour
     {
         [SerializeField]
         private bool _isActive;

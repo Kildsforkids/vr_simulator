@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
+using vr_simulator.InteractionSystem;
 
-namespace QuestSystem
+namespace vr_simulator.QuestSystem
 {
     public class QuestPlayer : MonoBehaviour
     {
@@ -11,7 +12,8 @@ namespace QuestSystem
 
         private void Start()
         {
-            _quest.QuestObject.GetComponent<Attachable>().AttachEvent += OnAttachEvent;
+            Debug.LogError(_quest.QuestObject.GetComponent<InteractableObject>() == null);
+            //_quest.QuestObject.GetComponent<InteractableObject>().AttachBehaviour.AttachEvent += OnAttachEvent;
         }
 
         private void OnAttachEvent()
