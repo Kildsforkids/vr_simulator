@@ -9,9 +9,10 @@ namespace vr_simulator.InteractionSystem.Attach
             //Debug.Log($"Attachment on {interactableObject.name}");
             interactableObject.GetComponent<ThrowableExtend>()?.currentHand?.DetachObject(interactableObject.gameObject);
             interactableObject.transform.position = target.position;
-            interactableObject.transform.rotation = target.rotation;
+            interactableObject.transform.rotation = target.localRotation;
             interactableObject.GetComponent<Rigidbody>().isKinematic = true;
             interactableObject.DestroyInteraction();
+            interactableObject.transform.SetParent(target);
         }
     }
 }

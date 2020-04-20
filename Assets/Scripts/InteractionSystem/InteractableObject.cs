@@ -8,20 +8,12 @@ namespace vr_simulator.InteractionSystem
 {
     public abstract class InteractableObject : TypableObject, IInteractableObject, IObservable
     {
-        //protected IAttachable attachBehaviour;
-
         [SerializeField]
         private List<GameObject> relatedObservers;
 
         private List<IObserver> observers = new List<IObserver>();
 
         public Attachable Attachable { get; set; }
-
-        //private void Start()
-        //{
-        //    ObjectType = ObjectType.None;
-        //    attachBehaviour = new Attachment();
-        //}
 
         protected virtual void Start()
         {
@@ -67,24 +59,6 @@ namespace vr_simulator.InteractionSystem
             Destroy(GetComponent<Interactable>());
             Destroy(GetComponent<VelocityEstimator>());
         }
-
-        //private void OnTriggerEnter(Collider other)
-        //{
-        //    var triggerController = other.GetComponent<TriggerController>();
-        //    Debug.LogError($"triggerController of {other.name} is null - {triggerController == null}");
-        //    if (triggerController != null)
-        //    {
-        //        if (triggerController.ObjectType == ObjectType)
-        //        {
-        //            AttachTo(triggerController.transform);
-        //        }
-        //    }
-        //}
-
-        //public IAttachable AttachBehaviour => attachBehaviour;
-
-
-        //public virtual void AttachTo(Transform target) => attachBehaviour.AttachTo(target);
 
         public void AttachTo(IAttachable attachable, Transform target)
         {
