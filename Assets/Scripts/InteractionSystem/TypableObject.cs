@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using Valve.VR.InteractionSystem;
 
 public abstract class TypableObject : MonoBehaviour
 {

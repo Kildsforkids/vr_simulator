@@ -10,10 +10,13 @@ namespace vr_simulator.InteractionSystem
     {
         [SerializeField]
         private List<GameObject> relatedObservers;
+        [SerializeField]
+        private string hintText;
 
         private List<IObserver> observers = new List<IObserver>();
 
         public Attachable Attachable { get; set; }
+        public string HintText => hintText;
 
         protected virtual void Start()
         {
@@ -23,10 +26,10 @@ namespace vr_simulator.InteractionSystem
 
         protected virtual void OnTriggerEnter(Collider other)
         {
-            var otherTypableObject = other.GetComponent<TypableObject>();
-            if (otherTypableObject != null)
+            var trigger = other.GetComponent<TriggerController>();
+            if (trigger != null)
             {
-                if (otherTypableObject.ObjectType == ObjectType)
+                if (trigger.ObjectType == ObjectType)
                 {
                     AttachTo(Attachable, other.transform);
                     NotifyObservers();
@@ -55,7 +58,7 @@ namespace vr_simulator.InteractionSystem
 
         public void DestroyInteraction()
         {
-            Destroy(GetComponent<ThrowableExtend>());
+            Destroy(GetComponent<Throwable>());
             Destroy(GetComponent<Interactable>());
             Destroy(GetComponent<VelocityEstimator>());
         }
