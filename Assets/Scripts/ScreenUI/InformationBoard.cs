@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using vr_simulator.InteractionSystem;
 
@@ -10,10 +8,31 @@ namespace vr_simulator.ScreenUI
     {
         [SerializeField]
         private Text hintText;
+        [SerializeField]
+        private GameObject infoPanel;
+        [SerializeField]
+        private Text title;
+        [SerializeField]
+        private Text description;
+        [SerializeField]
+        private Image image;
 
         public void DoUpdate(InteractableObject interactableObject)
         {
-            hintText.text = interactableObject.HintText;
+            if (interactableObject.ObjectInformation != null)
+            {
+                hintText.enabled = false;
+                title.text = interactableObject.ObjectInformation.title;
+                description.text = interactableObject.ObjectInformation.description;
+                image.sprite = interactableObject.ObjectInformation.image;
+                infoPanel.SetActive(true);
+            }
+            else
+            {
+                infoPanel.SetActive(false);
+                hintText.text = $"Упс, похоже мы не нашли никакой информации по объекту \"{interactableObject.name}\"";
+                hintText.enabled = true;
+            }
         }
     }
 }

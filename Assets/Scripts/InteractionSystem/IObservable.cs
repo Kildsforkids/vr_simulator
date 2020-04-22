@@ -2,8 +2,9 @@
 {
     public interface IObservable
     {
-        void AddObserver(IObserver o);
-        void RemoveObserver(IObserver o);
-        void NotifyObservers();
+        //void AddObserver(IObserver o);
+        //void RemoveObserver(IObserver o);
+        void NotifyQuestObservers();
+        void NotifyOtherObservers();
     }
 }

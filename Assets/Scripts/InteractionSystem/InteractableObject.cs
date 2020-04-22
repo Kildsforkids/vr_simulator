@@ -3,20 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR.InteractionSystem;
 using vr_simulator.InteractionSystem.Attach;
+using vr_simulator.ScreenUI;
 
 namespace vr_simulator.InteractionSystem
 {
     public abstract class InteractableObject : TypableObject, IInteractableObject, IObservable
     {
         [SerializeField]
-        private List<GameObject> relatedObservers;
+        private List<GameObject> questObservers;
         [SerializeField]
-        private string hintText;
+        private List<GameObject> otherObservers;
+        [SerializeField]
+        private ObjectInformation objInfo;
 
-        private List<IObserver> observers = new List<IObserver>();
+        private List<IObserver> _questObservers = new List<IObserver>();
+        private List<IObserver> _otherObservers = new List<IObserver>();
 
         public Attachable Attachable { get; set; }
-        public string HintText => hintText;
+        public ObjectInformation ObjectInformation => objInfo;
 
         protected virtual void Start()
         {
@@ -32,21 +36,38 @@ namespace vr_simulator.InteractionSystem
                 if (trigger.ObjectType == ObjectType)
                 {
                     AttachTo(Attachable, other.transform);
-                    NotifyObservers();
+                    NotifyQuestObservers();
                 }
             }
         }
 
         public void UpdateObserversList()
         {
-            foreach (var observer in relatedObservers)
+            foreach (var observer in questObservers)
             {
                 try
                 {
                     var observerComponents = observer.GetComponents<IObserver>();
                     foreach (var component in observerComponents)
                     {
-                        AddObserver(component);
+                        _questObservers.Add(component);
+                        //AddObserver(component);
+                    }
+                }
+                catch (NullReferenceException e)
+                {
+                    Debug.LogError($"Can't update observers' list with {observer.name} Error - [{e}]");
+                }
+            }
+            foreach (var observer in otherObservers)
+            {
+                try
+                {
+                    var observerComponents = observer.GetComponents<IObserver>();
+                    foreach (var component in observerComponents)
+                    {
+                        _otherObservers.Add(component);
+                        //AddObserver(component);
                     }
                 }
                 catch (NullReferenceException e)
@@ -68,22 +89,30 @@ namespace vr_simulator.InteractionSystem
             attachable.AttachTo(this, target);
         }
 
-        public void AddObserver(IObserver o)
-        {
-            observers.Add(o);
-        }
+        //public void AddObserver(IObserver o)
+        //{
+        //    observers.Add(o);
+        //}
 
-        public void NotifyObservers()
+        public void NotifyQuestObservers()
         {
-            foreach (var observer in observers)
+            foreach (var observer in _questObservers)
             {
                 observer.DoUpdate(this);
             }
         }
 
-        public void RemoveObserver(IObserver o)
+        public void NotifyOtherObservers()
         {
-            observers.Remove(o);
+            foreach (var observer in _otherObservers)
+            {
+                observer.DoUpdate(this);
+            }
         }
+
+        //public void RemoveObserver(IObserver o)
+        //{
+        //    observers.Remove(o);
+        //}
     }
 }
