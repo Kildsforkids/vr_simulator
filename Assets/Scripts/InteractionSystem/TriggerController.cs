@@ -2,27 +2,24 @@
 
 namespace vr_simulator.InteractionSystem
 {
-    public class TriggerController : TypableObject
+    public class TriggerController : TypableObject, IObserver
     {
         [SerializeField]
         private GameObject hint;
 
         public void ShowHint()
         {
-            if (hint.GetComponent<Animation>() != null && hint != null)
-            {
-                hint.SetActive(true);
-                hint.GetComponent<Animation>().Play("WheelHint");
-            }
+            hint.SetActive(true);
         }
 
         public void HideHint()
         {
-            if (hint.GetComponent<Animation>() != null && hint != null)
-            {
-                hint.GetComponent<Animation>().Stop("WheelHint");
-                hint.SetActive(false);
-            }
+            hint.SetActive(false);
+        }
+
+        public void DoUpdate(InteractableObject interactableObject)
+        {
+            HideHint();
         }
     }
 }

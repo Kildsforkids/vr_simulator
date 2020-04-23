@@ -30,7 +30,7 @@ namespace vr_simulator.ScreenUI
             else
             {
                 infoPanel.SetActive(false);
-                hintText.text = $"Упс, похоже мы не нашли никакой информации по объекту \"{interactableObject.name}\"";
+                hintText.text = $"Упс, похоже мы не нашли никакой информации\n по объекту \"{interactableObject.name}\"";
                 hintText.enabled = true;
             }
         }

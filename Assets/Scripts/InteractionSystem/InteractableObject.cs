@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR.InteractionSystem;
 using vr_simulator.InteractionSystem.Attach;
+using vr_simulator.QuestSystem;
 using vr_simulator.ScreenUI;
 
 namespace vr_simulator.InteractionSystem
@@ -16,7 +17,7 @@ namespace vr_simulator.InteractionSystem
         [SerializeField]
         private ObjectInformation objInfo;
 
-        private List<IObserver> _questObservers = new List<IObserver>();
+        private List<Quest> _questObservers = new List<Quest>();
         private List<IObserver> _otherObservers = new List<IObserver>();
 
         public Attachable Attachable { get; set; }
@@ -47,7 +48,7 @@ namespace vr_simulator.InteractionSystem
             {
                 try
                 {
-                    var observerComponents = observer.GetComponents<IObserver>();
+                    var observerComponents = observer.GetComponents<Quest>();
                     foreach (var component in observerComponents)
                     {
                         _questObservers.Add(component);
@@ -108,6 +109,17 @@ namespace vr_simulator.InteractionSystem
             {
                 observer.DoUpdate(this);
             }
+        }
+
+        public void RemoveQuestObserver(Quest o)
+        {
+            _questObservers.Remove(o);
+        }
+
+        public void ActivateQuest()
+        {
+            if (_questObservers.Count > 0)
+                _questObservers[0].Activate();
         }
 
         //public void RemoveObserver(IObserver o)

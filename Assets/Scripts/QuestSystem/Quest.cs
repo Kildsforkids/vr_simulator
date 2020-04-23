@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using vr_simulator.InteractionSystem;
 
 namespace vr_simulator.QuestSystem
 {
@@ -23,6 +24,13 @@ namespace vr_simulator.QuestSystem
         public string Description => _description;
         public QuestGoal Goal => _goal;
         public GameObject QuestObject => _questObject;
+
+        public abstract void DoUpdate(InteractableObject interactableObject);
+
+        public virtual void Activate()
+        {
+            IsActive = true;
+        }
 
         public void Complete()
         {

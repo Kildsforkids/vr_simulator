@@ -4,7 +4,7 @@ using vr_simulator.InteractionSystem;
 
 namespace vr_simulator.QuestSystem.Quests
 {
-    public class QuestAttach : Quest, IObserver
+    public class QuestAttach : Quest
     {
         [SerializeField]
         private Transform trigger;
@@ -23,23 +23,32 @@ namespace vr_simulator.QuestSystem.Quests
             }
         }
 
-        public void DoUpdate(InteractableObject interactableObject)
+        public override void Activate()
         {
-            try
+            IsActive = true;
+            triggerController.ShowHint();
+        }
+
+        public override void DoUpdate(InteractableObject interactableObject)
+        {
+            if (IsActive)
             {
-                if (triggerController.ObjectType == interactableObject.ObjectType)
+                try
                 {
-                    Debug.Log($"I think it was attach event between {trigger.name} and {interactableObject.name}");
-                    triggerController.HideHint();
+                    if (triggerController.ObjectType == interactableObject.ObjectType)
+                    {
+                        //Debug.Log($"I think it was attach event between {trigger.name} and {interactableObject.name}");
+                        interactableObject.RemoveQuestObserver(this);
+                    }
+                    else
+                    {
+                        Debug.Log($"{trigger.name} and {interactableObject.name} ObjectType do not match");
+                    }
                 }
-                else
+                catch (NullReferenceException e)
                 {
-                    Debug.Log($"{trigger.name} and {interactableObject.name} ObjectType do not match");
+                    Debug.LogError($"{trigger.name} error is [{e}]");
                 }
-            }
-            catch (NullReferenceException e)
-            {
-                Debug.LogError($"{trigger.name} error is [{e}]");
             }
         }
     }

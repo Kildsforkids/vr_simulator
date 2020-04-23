@@ -2,7 +2,7 @@
 
 namespace vr_simulator.InteractionSystem
 {
-    public class KeyWrench : InteractableObject
+    public class Nut : InteractableObject
     {
         protected override void Start()
         {
