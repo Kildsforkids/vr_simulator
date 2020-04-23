@@ -2,16 +2,19 @@
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class PointerDrag : MonoBehaviour, IDragHandler
+namespace vr_simulator.CanvasPointer
 {
-    [SerializeField]
-    private Canvas canvas;
-    [SerializeField]
-    private Scrollbar verticalScrollbar;
-
-    public void OnDrag(PointerEventData eventData)
+    public class PointerDrag : MonoBehaviour, IDragHandler
     {
-        Debug.LogError("IsDragging!");
-        verticalScrollbar.value += eventData.delta.magnitude / canvas.scaleFactor;
+        [SerializeField]
+        private Canvas canvas;
+        [SerializeField]
+        private Scrollbar verticalScrollbar;
+
+        public void OnDrag(PointerEventData eventData)
+        {
+            Debug.LogError("IsDragging!");
+            verticalScrollbar.value += eventData.delta.magnitude / canvas.scaleFactor;
+        }
     }
 }

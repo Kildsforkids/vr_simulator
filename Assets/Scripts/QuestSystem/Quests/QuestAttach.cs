@@ -4,27 +4,51 @@ using vr_simulator.InteractionSystem;
 
 namespace vr_simulator.QuestSystem.Quests
 {
-    public class QuestAttach : Quest, IObserver
+    public class QuestAttach : Quest
     {
         [SerializeField]
         private Transform trigger;
 
-        public void DoUpdate(InteractableObject interactableObject)
+        private TriggerController triggerController;
+
+        private void Start()
         {
-            try
+            triggerController = trigger?.GetComponent<TriggerController>();
+            if (triggerController != null)
             {
-                if (trigger.GetComponent<TypableObject>().ObjectType == interactableObject.ObjectType)
+                if (IsActive)
                 {
-                    Debug.Log($"I think it was attach event between {trigger.name} and {interactableObject.name}");
-                }
-                else
-                {
-                    Debug.Log($"{trigger.name} and {interactableObject.name} ObjectType do not match");
+                    triggerController.ShowHint();
                 }
             }
-            catch (NullReferenceException e)
+        }
+
+        public override void Activate()
+        {
+            IsActive = true;
+            triggerController.ShowHint();
+        }
+
+        public override void DoUpdate(InteractableObject interactableObject)
+        {
+            if (IsActive)
             {
-                Debug.LogError($"{trigger.name} error is [{e}]");
+                try
+                {
+                    if (triggerController.ObjectType == interactableObject.ObjectType)
+                    {
+                        //Debug.Log($"I think it was attach event between {trigger.name} and {interactableObject.name}");
+                        interactableObject.RemoveQuestObserver(this);
+                    }
+                    else
+                    {
+                        Debug.Log($"{trigger.name} and {interactableObject.name} ObjectType do not match");
+                    }
+                }
+                catch (NullReferenceException e)
+                {
+                    Debug.LogError($"{trigger.name} error is [{e}]");
+                }
             }
         }
     }
