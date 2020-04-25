@@ -16,12 +16,15 @@ namespace vr_simulator.InteractionSystem
         private List<GameObject> otherObservers;
         [SerializeField]
         private ObjectInformation objInfo;
+        [SerializeField]
+        private Quest quest;
 
         private List<Quest> _questObservers = new List<Quest>();
         private List<IObserver> _otherObservers = new List<IObserver>();
 
         public Attachable Attachable { get; set; }
         public ObjectInformation ObjectInformation => objInfo;
+        public Quest Quest { get { return quest; } set { quest = value; } }
 
         protected virtual void Start()
         {
@@ -37,7 +40,11 @@ namespace vr_simulator.InteractionSystem
                 if (trigger.ObjectType == ObjectType)
                 {
                     AttachTo(Attachable, other.transform);
-                    NotifyQuestObservers();
+                    if (quest != null)
+                    {
+                        quest.Complete();
+                    }
+                    //NotifyQuestObservers();
                 }
             }
         }
@@ -78,9 +85,9 @@ namespace vr_simulator.InteractionSystem
             }
         }
 
-        public void DestroyInteraction()
+        public virtual void DestroyInteraction()
         {
-            Destroy(GetComponent<Throwable>());
+            Destroy(GetComponent<ThrowableExtend>());
             Destroy(GetComponent<Interactable>());
             Destroy(GetComponent<VelocityEstimator>());
         }
@@ -116,11 +123,16 @@ namespace vr_simulator.InteractionSystem
             _questObservers.Remove(o);
         }
 
-        public void ActivateQuest()
+        public void DenyQuest()
         {
-            if (_questObservers.Count > 0)
-                _questObservers[0].Activate();
+            Quest = null;
         }
+
+        //public void ActivateQuest()
+        //{
+        //    if (_questObservers.Count > 0)
+        //        _questObservers[0].Activate();
+        //}
 
         //public void RemoveObserver(IObserver o)
         //{
