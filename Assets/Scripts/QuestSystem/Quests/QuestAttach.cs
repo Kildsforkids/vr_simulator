@@ -25,7 +25,8 @@ namespace vr_simulator.QuestSystem.Quests
 
         public override void Activate()
         {
-            IsActive = true;
+            base.Activate();
+            triggerController.gameObject.SetActive(true);
             triggerController.ShowHint();
         }
 
@@ -38,7 +39,7 @@ namespace vr_simulator.QuestSystem.Quests
                     if (triggerController.ObjectType == interactableObject.ObjectType)
                     {
                         //Debug.Log($"I think it was attach event between {trigger.name} and {interactableObject.name}");
-                        interactableObject.RemoveQuestObserver(this);
+                        //interactableObject.RemoveQuestObserver(this);
                     }
                     else
                     {
