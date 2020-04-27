@@ -15,7 +15,7 @@ namespace vr_simulator.InteractionSystem
         private float rotZ = 0f;
         private float rotValue = 0f;
         private Vector3 nutPosition;
-        private float rotScale = 10000f;
+        private float rotScale = 5000f;
 
         protected override void Start()
         {
@@ -28,26 +28,27 @@ namespace vr_simulator.InteractionSystem
         {
             if (state == KeyWrenchState.Lever)
             {
-                if (rotValue < 1500)
+                if (rotValue < 1000)
                 {
                     if (transform.rotation.eulerAngles.z > rotZ)
                     {
-                        rotValue--;
+                        if (rotValue > 1)
+                            rotValue--;
                         rotZ = transform.rotation.eulerAngles.z;
                         transform.parent.localPosition = nutPosition + Vector3.down * rotValue / rotScale;
-                        Debug.Log($"Rotation value of {transform.parent.name} is {rotValue}");
+                        //Debug.Log($"Rotation value of {transform.parent.name} is {rotValue}");
                     }
                     else if (transform.rotation.eulerAngles.z < rotZ)
                     {
                         rotValue++;
                         rotZ = transform.rotation.eulerAngles.z;
                         transform.parent.localPosition = nutPosition + Vector3.down * rotValue / rotScale;
-                        Debug.Log($"Rotation value of {transform.parent.name} is {rotValue}");
+                        //Debug.Log($"Rotation value of {transform.parent.name} is {rotValue}");
                     }
                 }
                 else
                 {
-                    SetDefaultState();
+                    CompleteQuest();
                 }
             }
         }
@@ -85,21 +86,36 @@ namespace vr_simulator.InteractionSystem
         {
             state = KeyWrenchState.Default;
             Destroy(GetComponent<CircularDrive>());
-            Destroy(GetComponent<Interactable>());
-            gameObject.AddComponent<ThrowableExtend>();
+            Destroy(GetComponent<LinearMapping>());
+            //Destroy(GetComponent<Interactable>());
+            var throwableExtend = gameObject.AddComponent<ThrowableExtend>();
+            throwableExtend.attachmentFlags = Hand.AttachmentFlags.DetachFromOtherHand | Hand.AttachmentFlags.VelocityMovement | Hand.AttachmentFlags.TurnOffGravity;
+            throwableExtend.attachmentOffset = transform.Find("GrabOffset");
+            //throwableExtend.onPickUp.AddListener(NotifyOtherObservers);
             gameObject.AddComponent<VelocityEstimator>();
+            //GetComponent<Interactable>().enabled = true;
+            GetComponent<Rigidbody>().isKinematic = false;
+            rotValue = 0f;
         }
 
         private void SetLeverState()
         {
             state = KeyWrenchState.Lever;
-            Destroy(GetComponent<Interactable>());
+            //Destroy(GetComponent<Interactable>());
             var circularDrive = gameObject.AddComponent<CircularDrive>();
             GetComponent<Interactable>().enabled = true;
             circularDrive.childCollider = circularDriveChildCollider;
             circularDrive.axisOfRotation = CircularDrive.Axis_t.ZAxis;
             circularDrive.hoverLock = true;
             nutPosition = transform.parent.localPosition;
+            //foreach (var collider in transform.parent.GetComponents<BoxCollider>())
+            //{
+            //    if (collider.isTrigger)
+            //    {
+            //        collider.enabled = false;
+            //    }
+            //}
+            transform.parent.Find("AttachmentTrigger").gameObject.SetActive(false);
         }
     }
 }

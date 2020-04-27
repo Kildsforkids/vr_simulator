@@ -10,14 +10,26 @@ public class QuestManager : GenericSingleton<QuestManager>
     [SerializeField]
     private List<Quest> quests;
 
+    public bool IsActive { get; set; }
+
     private void Start()
     {
         quests = GetComponents<Quest>().ToList();
-        foreach (var q in quests)
+        IsActive = false;
+    }
+
+    public void StartQuestPart()
+    {
+        if (!IsActive)
         {
-            questPanel.AddQuest(q);
+            questPanel.SetMenu(false);
+            foreach (var q in quests)
+            {
+                questPanel.AddQuest(q);
+            }
+            quests[0].Activate();
+            IsActive = true;
         }
-        quests[0].Activate();
     }
 
     public void SetNextQuest(Quest q)
@@ -26,6 +38,10 @@ public class QuestManager : GenericSingleton<QuestManager>
         if (quests.Count > 0)
         {
             quests[0].Activate();
+        }
+        else
+        {
+            questPanel.ShowWinStat();
         }
     }
 }

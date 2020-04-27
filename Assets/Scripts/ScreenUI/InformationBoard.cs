@@ -7,7 +7,7 @@ namespace vr_simulator.ScreenUI
     public class InformationBoard : MonoBehaviour, IObserver
     {
         [SerializeField]
-        private bool active = false;
+        private bool active;
         [SerializeField]
         private Text hintText;
         [SerializeField]
@@ -18,6 +18,8 @@ namespace vr_simulator.ScreenUI
         private Text description;
         [SerializeField]
         private Image image;
+
+        public bool IsActive { get { return active; } set { active = value; } }
 
         public void DoUpdate(InteractableObject interactableObject)
         {
@@ -38,6 +40,13 @@ namespace vr_simulator.ScreenUI
                     hintText.enabled = true;
                 }
             }
+        }
+
+        public void SetState(bool active)
+        {
+            this.active = active;
+            infoPanel.SetActive(false);
+            hintText.gameObject.SetActive(active);
         }
     }
 }
