@@ -13,6 +13,9 @@ namespace vr_simulator.InteractionSystem
 
         private KeyWrenchState state;
         private float rotZ = 0f;
+        private float rotValue = 0f;
+        private Vector3 nutPosition;
+        private float rotScale = 10000f;
 
         protected override void Start()
         {
@@ -25,16 +28,37 @@ namespace vr_simulator.InteractionSystem
         {
             if (state == KeyWrenchState.Lever)
             {
-                Debug.Log($"Rotate {transform.parent.name} on {transform.rotation.eulerAngles.z}");
-                if (transform.rotation.eulerAngles.z > rotZ)
+                if (rotValue < 1500)
                 {
-                    rotZ = transform.rotation.eulerAngles.z;
+                    if (transform.rotation.eulerAngles.z > rotZ)
+                    {
+                        rotValue--;
+                        rotZ = transform.rotation.eulerAngles.z;
+                        transform.parent.localPosition = nutPosition + Vector3.down * rotValue / rotScale;
+                        Debug.Log($"Rotation value of {transform.parent.name} is {rotValue}");
+                    }
+                    else if (transform.rotation.eulerAngles.z < rotZ)
+                    {
+                        rotValue++;
+                        rotZ = transform.rotation.eulerAngles.z;
+                        transform.parent.localPosition = nutPosition + Vector3.down * rotValue / rotScale;
+                        Debug.Log($"Rotation value of {transform.parent.name} is {rotValue}");
+                    }
                 }
                 else
                 {
-                    rotZ = 0f;
+                    SetDefaultState();
                 }
             }
+        }
+
+        private void CompleteQuest()
+        {
+            if (Quest != null)
+            {
+                Quest.Complete();
+            }
+            SetDefaultState();
         }
 
         protected override void OnTriggerEnter(Collider other)
@@ -45,10 +69,6 @@ namespace vr_simulator.InteractionSystem
                 if (trigger.ObjectType == ObjectType)
                 {
                     AttachTo(Attachable, other.transform);
-                    if (Quest != null)
-                    {
-                        Quest.Complete();
-                    }
                     //NotifyQuestObservers();
                     SetLeverState();
                 }
@@ -61,6 +81,15 @@ namespace vr_simulator.InteractionSystem
             Destroy(GetComponent<VelocityEstimator>());
         }
 
+        private void SetDefaultState()
+        {
+            state = KeyWrenchState.Default;
+            Destroy(GetComponent<CircularDrive>());
+            Destroy(GetComponent<Interactable>());
+            gameObject.AddComponent<ThrowableExtend>();
+            gameObject.AddComponent<VelocityEstimator>();
+        }
+
         private void SetLeverState()
         {
             state = KeyWrenchState.Lever;
@@ -70,6 +99,7 @@ namespace vr_simulator.InteractionSystem
             circularDrive.childCollider = circularDriveChildCollider;
             circularDrive.axisOfRotation = CircularDrive.Axis_t.ZAxis;
             circularDrive.hoverLock = true;
+            nutPosition = transform.parent.localPosition;
         }
     }
 }

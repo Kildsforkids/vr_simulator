@@ -56,12 +56,5 @@ namespace vr_simulator.QuestSystem
             }
             QuestManager.Instance.SetNextQuest(this);
         }
-
-        //public void Complete()
-        //{
-        //    _isActive = false;
-        //    Debug.Log($"Вы выполнили задание \"{_title}\"!");
-        //    _questGiver.UpdateQuestWindow(true);
-        //}
     }
 }
