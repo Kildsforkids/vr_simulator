@@ -46,7 +46,7 @@ namespace vr_simulator.ScreenUI
         {
             this.active = active;
             infoPanel.SetActive(false);
-            hintText.gameObject.SetActive(active);
+            hintText.enabled = active;
         }
     }
 }

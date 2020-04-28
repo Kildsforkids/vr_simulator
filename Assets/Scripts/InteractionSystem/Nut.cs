@@ -7,6 +7,11 @@ namespace vr_simulator.InteractionSystem
     {
         [SerializeField]
         private GameObject attachmentTrigger;
+        [SerializeField]
+        private Vector3 attachmentPosition;
+
+        public Vector3 AttachmentPosition { get { return attachmentPosition; } set { attachmentPosition = value; } }
+        public GameObject AttachmentTrigger => attachmentTrigger;
 
         protected override void Start()
         {
@@ -27,6 +32,7 @@ namespace vr_simulator.InteractionSystem
                         Quest.Complete();
                     }
                     //NotifyQuestObservers();
+                    AttachmentPosition = transform.localPosition;
                     attachmentTrigger.SetActive(true);
                 }
             }

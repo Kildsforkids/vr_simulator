@@ -8,6 +8,12 @@ namespace vr_simulator.InteractionSystem
     {
         [SerializeField]
         private Collider circularDriveChildCollider;
+        [SerializeField]
+        private Transform grabOffset;
+        [SerializeField]
+        private float nutDistance;
+        [SerializeField]
+        private float rotScale;
 
         private enum KeyWrenchState { Default, Lever }
 
@@ -15,7 +21,6 @@ namespace vr_simulator.InteractionSystem
         private float rotZ = 0f;
         private float rotValue = 0f;
         private Vector3 nutPosition;
-        private float rotScale = 5000f;
 
         protected override void Start()
         {
@@ -23,24 +28,23 @@ namespace vr_simulator.InteractionSystem
             Attachable = new FixedAttachment();
             UpdateObserversList();
         }
-
         private void Update()
         {
             if (state == KeyWrenchState.Lever)
             {
-                if (rotValue < 1000)
+                if (Mathf.Abs(transform.parent.localPosition.y - transform.parent.GetComponent<Nut>().AttachmentPosition.y) < nutDistance)
                 {
                     if (transform.rotation.eulerAngles.z > rotZ)
                     {
-                        if (rotValue > 1)
-                            rotValue--;
+                        if (rotValue > 0)
+                            rotValue -= Time.deltaTime;
                         rotZ = transform.rotation.eulerAngles.z;
                         transform.parent.localPosition = nutPosition + Vector3.down * rotValue / rotScale;
                         //Debug.Log($"Rotation value of {transform.parent.name} is {rotValue}");
                     }
                     else if (transform.rotation.eulerAngles.z < rotZ)
                     {
-                        rotValue++;
+                        rotValue += Time.deltaTime;
                         rotZ = transform.rotation.eulerAngles.z;
                         transform.parent.localPosition = nutPosition + Vector3.down * rotValue / rotScale;
                         //Debug.Log($"Rotation value of {transform.parent.name} is {rotValue}");
@@ -87,13 +91,11 @@ namespace vr_simulator.InteractionSystem
             state = KeyWrenchState.Default;
             Destroy(GetComponent<CircularDrive>());
             Destroy(GetComponent<LinearMapping>());
-            //Destroy(GetComponent<Interactable>());
             var throwableExtend = gameObject.AddComponent<ThrowableExtend>();
             throwableExtend.attachmentFlags = Hand.AttachmentFlags.DetachFromOtherHand | Hand.AttachmentFlags.VelocityMovement | Hand.AttachmentFlags.TurnOffGravity;
-            throwableExtend.attachmentOffset = transform.Find("GrabOffset");
+            throwableExtend.attachmentOffset = grabOffset;
             //throwableExtend.onPickUp.AddListener(NotifyOtherObservers);
             gameObject.AddComponent<VelocityEstimator>();
-            //GetComponent<Interactable>().enabled = true;
             GetComponent<Rigidbody>().isKinematic = false;
             rotValue = 0f;
         }
@@ -101,21 +103,13 @@ namespace vr_simulator.InteractionSystem
         private void SetLeverState()
         {
             state = KeyWrenchState.Lever;
-            //Destroy(GetComponent<Interactable>());
             var circularDrive = gameObject.AddComponent<CircularDrive>();
             GetComponent<Interactable>().enabled = true;
             circularDrive.childCollider = circularDriveChildCollider;
             circularDrive.axisOfRotation = CircularDrive.Axis_t.ZAxis;
             circularDrive.hoverLock = true;
             nutPosition = transform.parent.localPosition;
-            //foreach (var collider in transform.parent.GetComponents<BoxCollider>())
-            //{
-            //    if (collider.isTrigger)
-            //    {
-            //        collider.enabled = false;
-            //    }
-            //}
-            transform.parent.Find("AttachmentTrigger").gameObject.SetActive(false);
+            transform.parent.GetComponent<Nut>().AttachmentTrigger.SetActive(false);
         }
     }
 }

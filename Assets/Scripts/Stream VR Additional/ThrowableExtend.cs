@@ -1,15 +1,32 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using Valve.VR.InteractionSystem;
 
 public class ThrowableExtend : Throwable {
     // Fields
     public Hand currentHand { get; private set; }
-    
+
     // Methods
     protected override void OnAttachedToHand(Hand hand) {
-        if (enabled) base.OnAttachedToHand(hand);
+        //if (enabled) base.OnAttachedToHand(hand);
+        if (enabled)
+        {
+            hadInterpolation = rigidbody.interpolation;
+
+            attached = true;
+
+            onPickUp?.Invoke();
+
+            hand.HoverLock(null);
+
+            rigidbody.interpolation = RigidbodyInterpolation.None;
+
+            if (velocityEstimator != null)
+                velocityEstimator.BeginEstimatingVelocity();
+
+            attachTime = Time.time;
+            attachPosition = transform.position;
+            attachRotation = transform.rotation;
+        }
         currentHand = hand;
     }
 
@@ -26,7 +43,25 @@ public class ThrowableExtend : Throwable {
     }
 
     protected override void OnDetachedFromHand(Hand hand) {
-        if (enabled) base.OnDetachedFromHand(hand);
+        //if (enabled) base.OnDetachedFromHand(hand);
+        if (enabled)
+        {
+            attached = false;
+
+            onDetachFromHand?.Invoke();
+
+            hand.HoverUnlock(null);
+
+            rigidbody.interpolation = hadInterpolation;
+
+            Vector3 velocity;
+            Vector3 angularVelocity;
+
+            GetReleaseVelocities(hand, out velocity, out angularVelocity);
+
+            rigidbody.velocity = velocity;
+            rigidbody.angularVelocity = angularVelocity;
+        }
         currentHand = null;
     }
 
